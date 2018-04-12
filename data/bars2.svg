@@ -1,0 +1,64 @@
+<!-- Include into html file with following line: -->
+<!-- <img width="300.00" height="140.00" src="bars2"> -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300.00" height="140.00">
+<defs>
+</defs>
+<path d="M 0.00,140.00 L 0.00,0.00 L 300.00,0.00 L 300.00,140.00 Z" style="stroke: #000000; stroke-width: 0.00; fill: #006300;"/>
+<path d="M 23.08,115.00 L 23.08,15.00 " style="stroke: #ffff00; stroke-width: 0.50; stroke-dasharray: 2,2; fill: none;"/>
+<path d="M 46.15,115.00 L 46.15,15.00 " style="stroke: #ffff00; stroke-width: 0.50; stroke-dasharray: 2,2; fill: none;"/>
+<path d="M 69.23,115.00 L 69.23,15.00 " style="stroke: #ffff00; stroke-width: 0.50; stroke-dasharray: 2,2; fill: none;"/>
+<path d="M 92.31,115.00 L 92.31,15.00 " style="stroke: #ffff00; stroke-width: 0.50; stroke-dasharray: 2,2; fill: none;"/>
+<path d="M 115.38,115.00 L 115.38,15.00 " style="stroke: #ffff00; stroke-width: 0.50; stroke-dasharray: 2,2; fill: none;"/>
+<path d="M 138.46,115.00 L 138.46,15.00 " style="stroke: #ffff00; stroke-width: 0.50; stroke-dasharray: 2,2; fill: none;"/>
+<path d="M 161.54,115.00 L 161.54,15.00 " style="stroke: #ffff00; stroke-width: 0.50; stroke-dasharray: 2,2; fill: none;"/>
+<path d="M 184.62,115.00 L 184.62,15.00 " style="stroke: #ffff00; stroke-width: 0.50; stroke-dasharray: 2,2; fill: none;"/>
+<path d="M 207.69,115.00 L 207.69,15.00 " style="stroke: #ffff00; stroke-width: 0.50; stroke-dasharray: 2,2; fill: none;"/>
+<path d="M 230.77,115.00 L 230.77,15.00 " style="stroke: #ffff00; stroke-width: 0.50; stroke-dasharray: 2,2; fill: none;"/>
+<path d="M 253.85,115.00 L 253.85,15.00 " style="stroke: #ffff00; stroke-width: 0.50; stroke-dasharray: 2,2; fill: none;"/>
+<path d="M 276.92,115.00 L 276.92,15.00 " style="stroke: #ffff00; stroke-width: 0.50; stroke-dasharray: 2,2; fill: none;"/>
+<path d="M 15.00,81.67 L 15.00,53.89 L 31.15,53.89 L 31.15,81.67 Z" style="stroke: #000000; stroke-width: 0.00; fill: #ffff00;"/>
+<text x="23.08" y="50.89" style="font-family: Helvetica-Bold; font-size: 7; fill: #ffffff; text-anchor: middle; alignment-baseline: baseline; "> 12.5</text>
+<path d="M 38.08,81.67 L 38.08,48.78 L 54.23,48.78 L 54.23,81.67 Z" style="stroke: #000000; stroke-width: 0.00; fill: #ffff00;"/>
+<text x="46.15" y="45.78" style="font-family: Helvetica-Bold; font-size: 7; fill: #ffffff; text-anchor: middle; alignment-baseline: baseline; "> 14.8</text>
+<path d="M 61.15,81.67 L 61.15,76.33 L 77.31,76.33 L 77.31,81.67 Z" style="stroke: #000000; stroke-width: 0.00; fill: #ffff00;"/>
+<text x="69.23" y="73.33" style="font-family: Helvetica-Bold; font-size: 7; fill: #ffffff; text-anchor: middle; alignment-baseline: baseline; "> 2.4</text>
+<path d="M 84.23,81.67 L 84.23,89.44 L 100.38,89.44 L 100.38,81.67 Z" style="stroke: #000000; stroke-width: 0.00; fill: #ffff00;"/>
+<text x="92.31" y="92.44" style="font-family: Helvetica-Bold; font-size: 7; fill: #ffffff; text-anchor: middle; alignment-baseline: hanging; "> -3.5</text>
+<path d="M 107.31,81.67 L 107.31,93.89 L 123.46,93.89 L 123.46,81.67 Z" style="stroke: #000000; stroke-width: 0.00; fill: #ffff00;"/>
+<text x="115.38" y="96.89" style="font-family: Helvetica-Bold; font-size: 7; fill: #ffffff; text-anchor: middle; alignment-baseline: hanging; "> -5.5</text>
+<path d="M 130.38,81.67 L 130.38,84.33 L 146.54,84.33 L 146.54,81.67 Z" style="stroke: #000000; stroke-width: 0.00; fill: #ffff00;"/>
+<text x="138.46" y="87.33" style="font-family: Helvetica-Bold; font-size: 7; fill: #ffffff; text-anchor: middle; alignment-baseline: hanging; "> -1.2</text>
+<path d="M 153.46,81.67 L 153.46,71.22 L 169.62,71.22 L 169.62,81.67 Z" style="stroke: #000000; stroke-width: 0.00; fill: #ffff00;"/>
+<text x="161.54" y="68.22" style="font-family: Helvetica-Bold; font-size: 7; fill: #ffffff; text-anchor: middle; alignment-baseline: baseline; "> 4.7</text>
+<path d="M 176.54,81.67 L 176.54,64.78 L 192.69,64.78 L 192.69,81.67 Z" style="stroke: #000000; stroke-width: 0.00; fill: #ffff00;"/>
+<text x="184.62" y="61.78" style="font-family: Helvetica-Bold; font-size: 7; fill: #ffffff; text-anchor: middle; alignment-baseline: baseline; "> 7.6</text>
+<path d="M 199.62,81.67 L 199.62,45.00 L 215.77,45.00 L 215.77,81.67 Z" style="stroke: #000000; stroke-width: 0.00; fill: #ffff00;"/>
+<text x="207.69" y="42.00" style="font-family: Helvetica-Bold; font-size: 7; fill: #ffffff; text-anchor: middle; alignment-baseline: baseline; "> 16.5</text>
+<path d="M 222.69,81.67 L 222.69,58.56 L 238.85,58.56 L 238.85,81.67 Z" style="stroke: #000000; stroke-width: 0.00; fill: #ffff00;"/>
+<text x="230.77" y="55.56" style="font-family: Helvetica-Bold; font-size: 7; fill: #ffffff; text-anchor: middle; alignment-baseline: baseline; "> 10.4</text>
+<path d="M 245.77,81.67 L 245.77,47.67 L 261.92,47.67 L 261.92,81.67 Z" style="stroke: #000000; stroke-width: 0.00; fill: #ffff00;"/>
+<text x="253.85" y="44.67" style="font-family: Helvetica-Bold; font-size: 7; fill: #ffffff; text-anchor: middle; alignment-baseline: baseline; "> 15.3</text>
+<path d="M 268.85,81.67 L 268.85,70.11 L 285.00,70.11 L 285.00,81.67 Z" style="stroke: #000000; stroke-width: 0.00; fill: #ffff00;"/>
+<text x="276.92" y="67.11" style="font-family: Helvetica-Bold; font-size: 7; fill: #ffffff; text-anchor: middle; alignment-baseline: baseline; "> 5.2</text>
+<path d="M 84.23,81.67 L 84.23,89.44 L 100.38,89.44 L 100.38,81.67 Z" style="stroke: #000000; stroke-width: 0.00; fill: #ff0000;"/>
+<text x="92.31" y="92.44" style="font-family: Helvetica-Bold; font-size: 7; fill: #ffffff; text-anchor: middle; alignment-baseline: hanging; "> -3.5</text>
+<path d="M 107.31,81.67 L 107.31,93.89 L 123.46,93.89 L 123.46,81.67 Z" style="stroke: #000000; stroke-width: 0.00; fill: #ff0000;"/>
+<text x="115.38" y="96.89" style="font-family: Helvetica-Bold; font-size: 7; fill: #ffffff; text-anchor: middle; alignment-baseline: hanging; "> -5.5</text>
+<path d="M 130.38,81.67 L 130.38,84.33 L 146.54,84.33 L 146.54,81.67 Z" style="stroke: #000000; stroke-width: 0.00; fill: #ff0000;"/>
+<text x="138.46" y="87.33" style="font-family: Helvetica-Bold; font-size: 7; fill: #ffffff; text-anchor: middle; alignment-baseline: hanging; "> -1.2</text>
+<path d="M -0.25,81.67 L 300.25,81.67 " style="stroke: #ffffff; stroke-width: 0.50; fill: none;"/>
+<text x="23.08" y="118.67" style="font-family: default; font-size: 8; fill: #ffffff; text-anchor: middle; alignment-baseline: hanging; "> '90</text>
+<text x="46.15" y="118.67" style="font-family: default; font-size: 8; fill: #ffffff; text-anchor: middle; alignment-baseline: hanging; "> '91</text>
+<text x="69.23" y="118.67" style="font-family: default; font-size: 8; fill: #ffffff; text-anchor: middle; alignment-baseline: hanging; "> '92</text>
+<text x="92.31" y="118.67" style="font-family: default; font-size: 8; fill: #ffffff; text-anchor: middle; alignment-baseline: hanging; "> '93</text>
+<text x="115.38" y="118.67" style="font-family: default; font-size: 8; fill: #ffffff; text-anchor: middle; alignment-baseline: hanging; "> '94</text>
+<text x="138.46" y="118.67" style="font-family: default; font-size: 8; fill: #ffffff; text-anchor: middle; alignment-baseline: hanging; "> '95</text>
+<text x="161.54" y="118.67" style="font-family: default; font-size: 8; fill: #ffffff; text-anchor: middle; alignment-baseline: hanging; "> '96</text>
+<text x="184.62" y="118.67" style="font-family: default; font-size: 8; fill: #ffffff; text-anchor: middle; alignment-baseline: hanging; "> '97</text>
+<text x="207.69" y="118.67" style="font-family: default; font-size: 8; fill: #ffffff; text-anchor: middle; alignment-baseline: hanging; "> '98</text>
+<text x="230.77" y="118.67" style="font-family: default; font-size: 8; fill: #ffffff; text-anchor: middle; alignment-baseline: hanging; "> '99</text>
+<text x="253.85" y="118.67" style="font-family: default; font-size: 8; fill: #ffffff; text-anchor: middle; alignment-baseline: hanging; "> '00</text>
+<text x="276.92" y="118.67" style="font-family: default; font-size: 8; fill: #ffffff; text-anchor: middle; alignment-baseline: hanging; "> '01</text>
+<text x="11.54" y="10.56" style="font-family: Courier-Bold; font-size: 8; fill: #ffffff; text-anchor: start; alignment-baseline: baseline; "> Emerging growth fund annual return (%)</text>
+<text x="150.00" y="135.00" style="font-family: default; font-size: 8; fill: #ffffff; text-anchor: middle; alignment-baseline: baseline; "> Calendar Year</text>
+</svg>
