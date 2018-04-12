@@ -11,11 +11,10 @@ ops=5000000
 mrep="skip_list cuckoo"
 bufflist="64 16384"
 factors="
-	memtable.hit 
-	memtable.miss
-	l0.hit
-	block.cache.hit
-	block.cache.miss
+	fillseq
+	fillrandom
+	readseq
+	readrandom
 "
 
 
@@ -41,11 +40,12 @@ function get_stat() {
 					#th=$((th+th))
 					continue
 				fi
-				count=`cat $fname | grep $factor | grep -v sim | awk '{print $NF}'`
+				count=`cat $fname | grep -v rocks | grep $factor | awk '{print $5}'`
 				#count=`cat $fname | grep "memtable.hit" | awk '{print $NF}'`
 				#cat $fname | grep -v "Percentile" | grep "rocksdb" | awk -F: '$2!=0 {print $0}'
 				#echo "./1_memtable_run.sh $mr $th $disable_wal $ops $buff"
 	#			./1_memtable_run.sh $mr $th $disable_wal $ops $buff
+				echo $line $th $mr $count 
 				echo $line $th $mr $count >> tmp
 				line=$((line+1))
 	#			sleep 5
