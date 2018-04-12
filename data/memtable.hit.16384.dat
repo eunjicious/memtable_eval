@@ -1,0 +1,6 @@
+# line thread mrep count
+1 1 skip_list 5000000
+3 2 skip_list 10000000
+5 4 skip_list 20000000
+7 8 skip_list 40000000
+9 16 skip_list 80000000

@@ -37,7 +37,7 @@ t = table(file=data_file)
 #t.dump()
 ymax = get_ymax(['count'], t)
 c = canvas(ctype, title=data_file, dimensions=['3in', '1.85in'])
-d = drawable(canvas=c, xrange=[0,15], yrange=[0,ymax], 
+d = drawable(canvas=c, xrange=[0,10], yrange=[0,ymax], 
 			#coord=[0,25]
             # dimensions=['3in','1.85in']
 			)
@@ -63,7 +63,7 @@ axis(drawable=d, style='box',
 #	xauto=[1,15,1], 
 	title=data_file,
 	ytitle="IOPS",
-	xtitle="Threads",
+#	xtitle="Threads",
 	xmanual=xym,
 	yauto=[0, ymax, ymax/5],
 	domajortics=False, 
