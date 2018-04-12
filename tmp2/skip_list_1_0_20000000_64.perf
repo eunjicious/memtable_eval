@@ -1,0 +1,26 @@
+/home/ubuntu/rocksdb/rocks_bench --key_size=16 --value_size=100 --disable_auto_compactions=0 --write_buffer_size=67108864 --disable_wal=0 --sync=0 --verify_checksum=0 --threads=1 --use_existing_db=0 --allow_concurrent_memtable_write=0 --benchmarks=fillseq,fillrandom,readseq,readrandom --memtablerep=skip_list --db=/mnt/rocksdb --num=20000000 --keys_per_prefix=10 --prefix_size=8 --enable_pipelined_write=1 --statistics=1
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+Keys:       16 bytes each
+Values:     100 bytes each (50 bytes after compression)
+Entries:    20000000
+Prefix:    8 bytes
+Keys per prefix:    10
+RawSize:    2212.5 MB (estimated)
+FileSize:   1258.9 MB (estimated)
+Write rate: 0 bytes/second
+Read rate: 0 ops/second
+Compression: Snappy
+Memtablerep: skip_list
+Perf Level: 1
+------------------------------------------------
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+DB path: [/mnt/rocksdb]
+fillseq      :       2.561 micros/op 390527 ops/sec;   43.2 MB/s
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+DB path: [/mnt/rocksdb]
+fillrandom   :       3.334 micros/op 299947 ops/sec;   33.2 MB/s
+DB path: [/mnt/rocksdb]
+readseq      :       0.400 micros/op 2498707 ops/sec;  276.4 MB/s
