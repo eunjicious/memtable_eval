@@ -31,7 +31,7 @@ if len(sys.argv) < 2:
 #data_file='test.dat'
 data_file=sys.argv[1]
 
-ctype = 'pdf' #if len(sys.argv) < 2 else sys.argv[1]
+ctype = 'eps' #if len(sys.argv) < 2 else sys.argv[1]
 
 t = table(file=data_file)
 #t.dump()
