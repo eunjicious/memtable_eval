@@ -14,6 +14,7 @@ factors="
 	memtable.hit 
 	memtable.miss
 	l0.hit
+	l1.hit
 	block.cache.hit
 	block.cache.miss
 "

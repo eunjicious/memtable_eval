@@ -12,6 +12,8 @@ mrep="skip_list cuckoo"
 bufflist="64 16384"
 factors="
 	fillseq
+	fillrandom
+	readseq
 	readrandom
 "
 
