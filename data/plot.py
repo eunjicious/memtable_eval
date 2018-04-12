@@ -50,22 +50,24 @@ d = drawable(canvas=c, xrange=[0,10], yrange=[0,ymax],
 options = [('skip_list', 'solid', 0.5, 'lightblue'),
 			('cuckoo', 'dline2', 0.5, 'black')]
 
-xym = []
-
+xm = []
 w='mrep="%s"' % "cuckoo"
-
 for x, y in t.query(select='thread,line', where=w):
 	y = str(float(y) - 0.5)
-	xym.append((x, y))
+	xm.append((x, y))
 
+#ym = [ymax // 1000000,ymax]
+ym = []
+ym.append((ymax // 1000000,ymax))
 
 axis(drawable=d, style='box', 
 #	xauto=[1,15,1], 
 	title=data_file,
-	ytitle="IOPS",
-#	xtitle="Threads",
-	xmanual=xym,
-	yauto=[0, ymax, ymax/5],
+	#ytitle="IOPS",
+	xtitle="Threads",
+	xmanual=xm,
+	#yauto=[0, ymax, ymax/5],
+	ymanual=ym,
 	domajortics=False, 
 	#xaxisposition=0,
     linewidth=0.5, xlabelfontsize=8.0, doxlabels=True,
