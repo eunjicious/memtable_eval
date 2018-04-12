@@ -21,8 +21,6 @@ done
 
 factors="
 	fillseq
-	fillrandom
-	readseq
 	readrandom
 "
 for buff in $bufflist; do

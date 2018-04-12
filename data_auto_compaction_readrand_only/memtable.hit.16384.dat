@@ -1,0 +1,9 @@
+# line thread mrep count
+2 2 skip_list 10000000
+3 2 cuckoo 10000000
+5 4 skip_list 20000000
+6 4 cuckoo 20000000
+8 8 skip_list 40000000
+9 8 cuckoo 40000000
+11 16 skip_list 80000000
+12 16 cuckoo 80000000
