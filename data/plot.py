@@ -1,46 +1,97 @@
 from zplot import *
+import sys
+from subprocess import call
 
-data_file='memtable.hit.64.dat'
-ctype = 'pdf' if len(sys.argv) < 2 else sys.argv[1]
-c = canvas(ctype, title=data_file, dimensions=[300, 140])
 
-d = drawable(canvas=c, xrange=[89,102], yrange=[0,2000000, coord=[0,25],
-             dimensions=['3in','1.85in'])
+
+def get_ymax(coll_list, t):
+	ymax = 0
+
+	for c in coll_list:
+		ymax = ymax if t.getmax(c) < ymax else t.getmax(c)
+
+	ymax = ymax + ymax * 0.1
+
+	round_ymax = 0
+	round_scale = 10 if ymax < 100 else 100
+
+	while round_ymax < ymax:
+		round_ymax += round_scale
+
+	#print(round_ymax)
+
+	return round_ymax
+
+#data_file='memtable.hit.64.dat'
+
+if len(sys.argv) < 2:
+	print("./plot.py memtable.hit.dat")
+	sys.exit()
+
+#data_file='test.dat'
+data_file=sys.argv[1]
+
+ctype = 'eps' #if len(sys.argv) < 2 else sys.argv[1]
 
 t = table(file=data_file)
-c = canv
+#t.dump()
+ymax = get_ymax(['count'], t)
+c = canvas(ctype, title=data_file, dimensions=['3in', '1.85in'])
+d = drawable(canvas=c, xrange=[0,15], yrange=[0,ymax], 
+			#coord=[0,25]
+            # dimensions=['3in','1.85in']
+			)
 
 # background: green, with a yellow vertical grid
-c.box(coord=[[0,0],[300,140]], fill=True, fillcolor='darkgreen', linewidth=0)
-grid(drawable=d, y=False, xrange=[90,101], xstep=1, linecolor='yellow',
-     linedash=[2,2])
+#c.box(coord=[[0,0],[300,140]], fill=True, fillcolor='darkgreen', linewidth=0)
+#grid(drawable=d, y=False, xrange=[90,101], xstep=1, linecolor='yellow',
+ #    linedash=[2,2])
 
+options = [('skip_list', 'solid', 0.5, 'lightblue'),
+			('cuckoo', 'dline2', 0.5, 'black')]
+
+xym = []
+
+w='mrep="%s"' % "cuckoo"
+
+for x, y in t.query(select='thread,line', where=w):
+	y = str(float(y) - 0.5)
+	xym.append((x, y))
+
+
+axis(drawable=d, style='box', 
+#	xauto=[1,15,1], 
+	title=data_file,
+	ytitle="IOPS",
+	xtitle="Threads",
+	xmanual=xym,
+	yauto=[0, ymax, ymax/5],
+	domajortics=False, 
+	#xaxisposition=0,
+    linewidth=0.5, xlabelfontsize=8.0, doxlabels=True,
+	)
+#xlabelformat='\'%s', 
+#	xlabelshift=[0,-30],linecolor='black', xlabelfontcolor='black')'
 p = plotter()
-p.verticalbars(drawable=d, table=gt, xfield='c0', yfield='c1', fill=True,
-               fillcolor='yellow', barwidth=0.7, linewidth=0, yloval=0,
-               labelfield='c1', labelcolor='white', labelfont='Helvetica-Bold',
-               labelsize=7.0)
-p.verticalbars(drawable=d, table=lt, xfield='c0', yfield='c1', fill=True,
-               fillcolor='red',    barwidth=0.7, linewidth=0, yloval=0,
-               labelfield='c1', labelplace='o', labelanchor='c,h',
-               labelcolor='white', labelfont='Helvetica-Bold', labelsize=7.0)
+L = legend()
 
-# a bit of a hack to get around that we don't support date fields (yet)
-axis(drawable=d, style='x', xauto=[90,99,1], domajortics=False, xaxisposition=0,
-     linewidth=0.5, xlabelfontsize=8.0, xlabelformat='\'%s', xlabelshift=[0,-30],
-     linecolor='white', xlabelfontcolor='white')
-axis(drawable=d, style='x', xmanual=[['00', 100],['01',101]], domajortics=False,
-     xaxisposition=0, linewidth=0.5, xlabelfontsize=8.0, xlabelformat='\'%s',
-     xlabelshift=[0,-30], doaxis=False, xlabelfontcolor='white')
+for opt, ftype, fsize, color in options:
+	w = 'mrep="%s"' % opt
+	st = table(table=t, where=w)
 
-c.text(coord=d.map([89.5,32]), text='Emerging growth fund annual return (%)',
-       anchor='l', size=8.0, font='Courier-Bold', color='white')
-c.text(coord=d.map([95.5,-24]), text='Calendar Year', size=8.0, color='white')
+	barargs = {'drawable':d, 'table':st, 'xfield': 'line', 'yfield': 'count', 
+				'fill': True, 'barwidth': 0.8, 'fillsize': fsize, 
+				'fillstyle': ftype, 'fillcolor': color, 
+				'legendtext': opt,'legend' : L}
+
+	p.verticalbars(**barargs)
+	
+	L.draw (c, coord=[d.right() - 50, d.top() -6], style='right', skipnext=2, skipspace=45, fontsize=8, height=5, hspace=2)
 
 c.render()
-
-
-
-
+#
+#
+#call(["mv", _title + ".eps", "figure"])
+call(["open", data_file + "." + ctype])
 
 
