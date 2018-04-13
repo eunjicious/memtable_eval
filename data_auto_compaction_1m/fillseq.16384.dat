@@ -1,0 +1,11 @@
+# line thread mrep count
+1 1 skip_list 306639
+2 1 cuckoo 372233
+4 2 skip_list 287893
+5 2 cuckoo 285032
+7 4 skip_list 473459
+8 4 cuckoo 535476
+10 8 skip_list 759813
+11 8 cuckoo 790089
+13 16 skip_list 1033686
+14 16 cuckoo 1110375
