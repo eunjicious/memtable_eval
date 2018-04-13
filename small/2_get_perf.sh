@@ -7,7 +7,7 @@ DATA_DIR=.
 #buff=$1
 
 disable_wal=0
-ops=10000
+ops=100000
 mrep="skip_list cuckoo"
 bufflist="16384"
 factors="
