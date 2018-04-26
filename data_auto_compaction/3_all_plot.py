@@ -3,6 +3,7 @@ DATA_DIR=./memtable_eval/data
 #cd $DATA_DIR
 
 bufflist="64 16384"
+
 factors="
 	memtable.hit 
 	memtable.miss

@@ -1,0 +1,1048 @@
+2018/04/25-09:24:58.029420 7f188c518a00 RocksDB version: 5.13.0
+2018/04/25-09:24:58.029448 7f188c518a00 Git sha rocksdb_build_git_sha:3be9b364539d382ce282cad80b5c05c58fd2d8a7
+2018/04/25-09:24:58.029451 7f188c518a00 Compile date Apr 24 2018
+2018/04/25-09:24:58.029453 7f188c518a00 DB SUMMARY
+2018/04/25-09:24:58.029463 7f188c518a00 SST files in /mnt/rocksdb dir, Total Num: 0, files: 
+2018/04/25-09:24:58.029465 7f188c518a00 Write Ahead Log file in /mnt/rocksdb: 
+2018/04/25-09:24:58.029466 7f188c518a00                         Options.error_if_exists: 0
+2018/04/25-09:24:58.029467 7f188c518a00                       Options.create_if_missing: 1
+2018/04/25-09:24:58.029468 7f188c518a00                         Options.paranoid_checks: 1
+2018/04/25-09:24:58.029469 7f188c518a00                                     Options.env: 0xb2b9c0
+2018/04/25-09:24:58.029471 7f188c518a00                                Options.info_log: 0xdc9130
+2018/04/25-09:24:58.029472 7f188c518a00                Options.max_file_opening_threads: 16
+2018/04/25-09:24:58.029473 7f188c518a00                              Options.statistics: 0x1074bd0
+2018/04/25-09:24:58.029474 7f188c518a00                               Options.use_fsync: 0
+2018/04/25-09:24:58.029475 7f188c518a00                       Options.max_log_file_size: 0
+2018/04/25-09:24:58.029476 7f188c518a00                  Options.max_manifest_file_size: 18446744073709551615
+2018/04/25-09:24:58.029477 7f188c518a00                   Options.log_file_time_to_roll: 0
+2018/04/25-09:24:58.029478 7f188c518a00                       Options.keep_log_file_num: 1000
+2018/04/25-09:24:58.029479 7f188c518a00                    Options.recycle_log_file_num: 0
+2018/04/25-09:24:58.029481 7f188c518a00                         Options.allow_fallocate: 1
+2018/04/25-09:24:58.029482 7f188c518a00                        Options.allow_mmap_reads: 0
+2018/04/25-09:24:58.029483 7f188c518a00                       Options.allow_mmap_writes: 0
+2018/04/25-09:24:58.029484 7f188c518a00                        Options.use_direct_reads: 0
+2018/04/25-09:24:58.029485 7f188c518a00                        Options.use_direct_io_for_flush_and_compaction: 0
+2018/04/25-09:24:58.029486 7f188c518a00          Options.create_missing_column_families: 0
+2018/04/25-09:24:58.029487 7f188c518a00                              Options.db_log_dir: 
+2018/04/25-09:24:58.029488 7f188c518a00                                 Options.wal_dir: /mnt/rocksdb
+2018/04/25-09:24:58.029489 7f188c518a00                Options.table_cache_numshardbits: 4
+2018/04/25-09:24:58.029490 7f188c518a00                      Options.max_subcompactions: 1
+2018/04/25-09:24:58.029491 7f188c518a00                  Options.max_background_flushes: -1
+2018/04/25-09:24:58.029492 7f188c518a00                         Options.WAL_ttl_seconds: 0
+2018/04/25-09:24:58.029493 7f188c518a00                       Options.WAL_size_limit_MB: 0
+2018/04/25-09:24:58.029494 7f188c518a00             Options.manifest_preallocation_size: 4194304
+2018/04/25-09:24:58.029495 7f188c518a00                     Options.is_fd_close_on_exec: 1
+2018/04/25-09:24:58.029496 7f188c518a00                   Options.advise_random_on_open: 1
+2018/04/25-09:24:58.029497 7f188c518a00                    Options.db_write_buffer_size: 0
+2018/04/25-09:24:58.029498 7f188c518a00                    Options.write_buffer_manager: 0x1074fd0
+2018/04/25-09:24:58.029499 7f188c518a00         Options.access_hint_on_compaction_start: 1
+2018/04/25-09:24:58.029500 7f188c518a00  Options.new_table_reader_for_compaction_inputs: 1
+2018/04/25-09:24:58.029500 7f188c518a00           Options.random_access_max_buffer_size: 1048576
+2018/04/25-09:24:58.029502 7f188c518a00                      Options.use_adaptive_mutex: 0
+2018/04/25-09:24:58.029502 7f188c518a00                            Options.rate_limiter: (nil)
+2018/04/25-09:24:58.029504 7f188c518a00     Options.sst_file_manager.rate_bytes_per_sec: 0
+2018/04/25-09:24:58.029505 7f188c518a00                       Options.wal_recovery_mode: 2
+2018/04/25-09:24:58.029506 7f188c518a00                  Options.enable_thread_tracking: 0
+2018/04/25-09:24:58.029507 7f188c518a00                  Options.enable_pipelined_write: 0
+2018/04/25-09:24:58.029513 7f188c518a00         Options.allow_concurrent_memtable_write: 0
+2018/04/25-09:24:58.029514 7f188c518a00      Options.enable_write_thread_adaptive_yield: 1
+2018/04/25-09:24:58.029515 7f188c518a00             Options.write_thread_max_yield_usec: 100
+2018/04/25-09:24:58.029516 7f188c518a00            Options.write_thread_slow_yield_usec: 3
+2018/04/25-09:24:58.029517 7f188c518a00                               Options.row_cache: None
+2018/04/25-09:24:58.029518 7f188c518a00                              Options.wal_filter: None
+2018/04/25-09:24:58.029519 7f188c518a00             Options.avoid_flush_during_recovery: 0
+2018/04/25-09:24:58.029520 7f188c518a00             Options.allow_ingest_behind: 0
+2018/04/25-09:24:58.029521 7f188c518a00             Options.preserve_deletes: 0
+2018/04/25-09:24:58.029522 7f188c518a00             Options.two_write_queues: 0
+2018/04/25-09:24:58.029523 7f188c518a00             Options.manual_wal_flush: 0
+2018/04/25-09:24:58.029524 7f188c518a00             Options.max_background_jobs: 2
+2018/04/25-09:24:58.029525 7f188c518a00             Options.max_background_compactions: -1
+2018/04/25-09:24:58.029526 7f188c518a00             Options.avoid_flush_during_shutdown: 0
+2018/04/25-09:24:58.029527 7f188c518a00           Options.writable_file_max_buffer_size: 1048576
+2018/04/25-09:24:58.029528 7f188c518a00             Options.delayed_write_rate : 8388608
+2018/04/25-09:24:58.029529 7f188c518a00             Options.max_total_wal_size: 0
+2018/04/25-09:24:58.029530 7f188c518a00             Options.delete_obsolete_files_period_micros: 21600000000
+2018/04/25-09:24:58.029531 7f188c518a00                   Options.stats_dump_period_sec: 600
+2018/04/25-09:24:58.029532 7f188c518a00                          Options.max_open_files: -1
+2018/04/25-09:24:58.029533 7f188c518a00                          Options.bytes_per_sync: 0
+2018/04/25-09:24:58.029534 7f188c518a00                      Options.wal_bytes_per_sync: 0
+2018/04/25-09:24:58.029535 7f188c518a00       Options.compaction_readahead_size: 0
+2018/04/25-09:24:58.029536 7f188c518a00 Compression algorithms supported:
+2018/04/25-09:24:58.029537 7f188c518a00 	kZSTDNotFinalCompression supported: 1
+2018/04/25-09:24:58.029539 7f188c518a00 	kZSTD supported: 0
+2018/04/25-09:24:58.029540 7f188c518a00 	kXpressCompression supported: 0
+2018/04/25-09:24:58.029541 7f188c518a00 	kLZ4HCCompression supported: 1
+2018/04/25-09:24:58.029543 7f188c518a00 	kLZ4Compression supported: 1
+2018/04/25-09:24:58.029544 7f188c518a00 	kBZip2Compression supported: 1
+2018/04/25-09:24:58.029545 7f188c518a00 	kZlibCompression supported: 1
+2018/04/25-09:24:58.029546 7f188c518a00 	kSnappyCompression supported: 1
+2018/04/25-09:24:58.029553 7f188c518a00 Fast CRC32 supported: Supported on x86
+2018/04/25-09:24:58.029579 7f188c518a00 [db/db_impl_open.cc:222] Creating manifest 1 
+2018/04/25-09:24:58.066072 7f188c518a00 [db/version_set.cc:3096] Recovering from manifest file: MANIFEST-000001
+2018/04/25-09:24:58.066111 7f188c518a00 [db/column_family.cc:475] --------------- Options for column family [default]:
+2018/04/25-09:24:58.066113 7f188c518a00               Options.comparator: leveldb.BytewiseComparator
+2018/04/25-09:24:58.066114 7f188c518a00           Options.merge_operator: None
+2018/04/25-09:24:58.066115 7f188c518a00        Options.compaction_filter: None
+2018/04/25-09:24:58.066116 7f188c518a00        Options.compaction_filter_factory: None
+2018/04/25-09:24:58.066117 7f188c518a00         Options.memtable_factory: HashLinkListRepFactory
+2018/04/25-09:24:58.066119 7f188c518a00            Options.table_factory: BlockBasedTable
+2018/04/25-09:24:58.066138 7f188c518a00            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0x106be30)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0x1074890
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: (nil)
+  persistent_cache: (nil)
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 2
+  enable_index_compression: 1
+  block_align: 0
+2018/04/25-09:24:58.066148 7f188c518a00        Options.write_buffer_size: 17179869184
+2018/04/25-09:24:58.066149 7f188c518a00  Options.max_write_buffer_number: 2
+2018/04/25-09:24:58.066151 7f188c518a00          Options.compression: Snappy
+2018/04/25-09:24:58.066152 7f188c518a00                  Options.bottommost_compression: Disabled
+2018/04/25-09:24:58.066153 7f188c518a00       Options.prefix_extractor: rocksdb.FixedPrefix.8
+2018/04/25-09:24:58.066154 7f188c518a00   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2018/04/25-09:24:58.066155 7f188c518a00             Options.num_levels: 7
+2018/04/25-09:24:58.066156 7f188c518a00        Options.min_write_buffer_number_to_merge: 1
+2018/04/25-09:24:58.066157 7f188c518a00     Options.max_write_buffer_number_to_maintain: 0
+2018/04/25-09:24:58.066158 7f188c518a00            Options.compression_opts.window_bits: -14
+2018/04/25-09:24:58.066159 7f188c518a00                  Options.compression_opts.level: -1
+2018/04/25-09:24:58.066160 7f188c518a00               Options.compression_opts.strategy: 0
+2018/04/25-09:24:58.066161 7f188c518a00         Options.compression_opts.max_dict_bytes: 0
+2018/04/25-09:24:58.066162 7f188c518a00         Options.compression_opts.zstd_max_train_bytes: 0
+2018/04/25-09:24:58.066163 7f188c518a00      Options.level0_file_num_compaction_trigger: 4
+2018/04/25-09:24:58.066163 7f188c518a00          Options.level0_slowdown_writes_trigger: 20
+2018/04/25-09:24:58.066164 7f188c518a00              Options.level0_stop_writes_trigger: 36
+2018/04/25-09:24:58.066165 7f188c518a00                   Options.target_file_size_base: 67108864
+2018/04/25-09:24:58.066166 7f188c518a00             Options.target_file_size_multiplier: 1
+2018/04/25-09:24:58.066167 7f188c518a00                Options.max_bytes_for_level_base: 268435456
+2018/04/25-09:24:58.066168 7f188c518a00 Options.level_compaction_dynamic_level_bytes: 0
+2018/04/25-09:24:58.066169 7f188c518a00          Options.max_bytes_for_level_multiplier: 10.000000
+2018/04/25-09:24:58.066171 7f188c518a00 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2018/04/25-09:24:58.066172 7f188c518a00 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2018/04/25-09:24:58.066173 7f188c518a00 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2018/04/25-09:24:58.066174 7f188c518a00 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2018/04/25-09:24:58.066175 7f188c518a00 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2018/04/25-09:24:58.066175 7f188c518a00 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2018/04/25-09:24:58.066176 7f188c518a00 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2018/04/25-09:24:58.066177 7f188c518a00       Options.max_sequential_skip_in_iterations: 8
+2018/04/25-09:24:58.066178 7f188c518a00                    Options.max_compaction_bytes: 1677721600
+2018/04/25-09:24:58.066179 7f188c518a00                        Options.arena_block_size: 2147483648
+2018/04/25-09:24:58.066180 7f188c518a00   Options.soft_pending_compaction_bytes_limit: 68719476736
+2018/04/25-09:24:58.066181 7f188c518a00   Options.hard_pending_compaction_bytes_limit: 137438953472
+2018/04/25-09:24:58.066182 7f188c518a00       Options.rate_limit_delay_max_milliseconds: 1000
+2018/04/25-09:24:58.066183 7f188c518a00                Options.disable_auto_compactions: 0
+2018/04/25-09:24:58.066184 7f188c518a00                        Options.compaction_style: kCompactionStyleLevel
+2018/04/25-09:24:58.066185 7f188c518a00                          Options.compaction_pri: kByCompensatedSize
+2018/04/25-09:24:58.066186 7f188c518a00 Options.compaction_options_universal.size_ratio: 1
+2018/04/25-09:24:58.066191 7f188c518a00 Options.compaction_options_universal.min_merge_width: 2
+2018/04/25-09:24:58.066192 7f188c518a00 Options.compaction_options_universal.max_merge_width: 4294967295
+2018/04/25-09:24:58.066193 7f188c518a00 Options.compaction_options_universal.max_size_amplification_percent: 200
+2018/04/25-09:24:58.066194 7f188c518a00 Options.compaction_options_universal.compression_size_percent: -1
+2018/04/25-09:24:58.066195 7f188c518a00 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2018/04/25-09:24:58.066196 7f188c518a00 Options.compaction_options_fifo.max_table_files_size: 0
+2018/04/25-09:24:58.066197 7f188c518a00 Options.compaction_options_fifo.allow_compaction: 1
+2018/04/25-09:24:58.066198 7f188c518a00 Options.compaction_options_fifo.ttl: 0
+2018/04/25-09:24:58.066199 7f188c518a00                   Options.table_properties_collectors: 
+2018/04/25-09:24:58.066200 7f188c518a00                   Options.inplace_update_support: 0
+2018/04/25-09:24:58.066201 7f188c518a00                 Options.inplace_update_num_locks: 10000
+2018/04/25-09:24:58.066202 7f188c518a00               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2018/04/25-09:24:58.066203 7f188c518a00   Options.memtable_huge_page_size: 0
+2018/04/25-09:24:58.066204 7f188c518a00                           Options.bloom_locality: 0
+2018/04/25-09:24:58.066205 7f188c518a00                    Options.max_successive_merges: 0
+2018/04/25-09:24:58.066206 7f188c518a00                Options.optimize_filters_for_hits: 0
+2018/04/25-09:24:58.066206 7f188c518a00                Options.paranoid_file_checks: 0
+2018/04/25-09:24:58.066207 7f188c518a00                Options.force_consistency_checks: 0
+2018/04/25-09:24:58.066208 7f188c518a00                Options.report_bg_io_stats: 0
+2018/04/25-09:24:58.066209 7f188c518a00                               Options.ttl: 0
+2018/04/25-09:24:58.069967 7f188c518a00 [db/version_set.cc:3370] Recovered from manifest file:/mnt/rocksdb/MANIFEST-000001 succeeded,manifest_file_number is 1, next_file_number is 3, last_sequence is 0, log_number is 0,prev_log_number is 0,max_column_family is 0,deleted_log_number is 0
+2018/04/25-09:24:58.069974 7f188c518a00 [db/version_set.cc:3378] Column family [default] (ID 0), log number is 0
+2018/04/25-09:24:58.075486 7f188c518a00 [db/db_impl_open.cc:1218] DB pointer 0x1083ff0
+2018/04/25-09:32:15.766298 7f17f3fff700 [db/db_impl_write.cc:1346] [default] New memtable created with log file: #6. Immutable memtables: 0.
+2018/04/25-09:32:15.766354 7f18898e1700 [db/db_impl_compaction_flush.cc:80] [JOB 2] Syncing log #3
+2018/04/25-09:32:16.655355 7f18898e1700 (Original Log Time 2018/04/25-09:32:15.766345) [db/db_impl_compaction_flush.cc:1419] Calling FlushMemTableToOutputFile with column family [default], flush slots available 1, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2018/04/25-09:32:16.655363 7f18898e1700 [db/flush_job.cc:300] [default] [JOB 2] Flushing memtable with next log file: 6
+2018/04/25-09:33:10.667120 7f18898e1700 hashLinkedList Entry distribution among buckets: Count: 1048576 Average: 52.1319  StdDev: 24.42
+Min: 0  Median: 49.5271  Max: 214
+Percentiles: P50: 49.53 P75: 68.83 P99: 135.07 P99.9: 166.73 P99.99: 169.89
+------------------------------------------------------
+[       0,       1 ]     7046   0.672%   0.672% 
+(       1,       2 ]       58   0.006%   0.677% 
+(       2,       3 ]      197   0.019%   0.696% 
+(       3,       4 ]      490   0.047%   0.743% 
+(       4,       6 ]     3028   0.289%   1.032% 
+(       6,      10 ]    15469   1.475%   2.507% 
+(      10,      15 ]    24107   2.299%   4.806% 
+(      15,      22 ]    57790   5.511%  10.317% #
+(      22,      34 ]   154032  14.690%  25.007% ###
+(      34,      51 ]   286931  27.364%  52.371% #####
+(      51,      76 ]   332639  31.723%  84.094% ######
+(      76,     110 ]   148832  14.194%  98.287% ###
+(     110,     170 ]    17884   1.706%  99.993% 
+(     170,     250 ]       73   0.007% 100.000% 
+2018/04/25-09:33:10.667161 7f18898e1700 EVENT_LOG_v1 {"time_micros": 1524648790667155, "job": 2, "event": "flush_started", "num_memtables": 1, "num_entries": 54664290, "num_deletes": 0, "memory_usage": 16643033360, "flush_reason": "Write Buffer Full"}
+2018/04/25-09:33:10.667166 7f18898e1700 [db/flush_job.cc:330] [default] [JOB 2] Level-0 flush table #7: started
+2018/04/25-09:34:49.737610 7f18898e1700 EVENT_LOG_v1 {"time_micros": 1524648889737571, "cf_name": "default", "job": 2, "event": "table_file_creation", "file_number": 7, "file_size": 6248437454, "table_properties": {"data_size": 6206658914, "index_size": 84132631, "filter_size": 0, "raw_key_size": 814719576, "raw_average_key_size": 24, "raw_value_size": 8690342144, "raw_average_value_size": 256, "num_data_blocks": 2424761, "num_entries": 33946649, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:34:49.739827 7f18898e1700 [db/flush_job.cc:370] [default] [JOB 2] Level-0 flush table #7: 6248437454 bytes OK
+2018/04/25-09:34:49.741516 7f18898e1700 [db/version_set.cc:2868] Creating manifest 8
+2018/04/25-09:34:49.749069 7f18898e1700 (Original Log Time 2018/04/25-09:34:49.741498) [db/memtable_list.cc:374] [default] Level-0 commit table #7 started
+2018/04/25-09:34:49.749073 7f18898e1700 (Original Log Time 2018/04/25-09:34:49.749009) [db/memtable_list.cc:397] [default] Level-0 commit table #7: memtable #1 done
+2018/04/25-09:34:49.749075 7f18898e1700 (Original Log Time 2018/04/25-09:34:49.749024) EVENT_LOG_v1 {"time_micros": 1524648889749018, "job": 2, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [1, 0, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2018/04/25-09:34:49.749078 7f18898e1700 (Original Log Time 2018/04/25-09:34:49.749045) [db/db_impl_compaction_flush.cc:174] [default] Level summary: base level 1 max bytes base 268435456 files[1 0 0 0 0 0 0] max score 23.28
+2018/04/25-09:34:49.749085 7f18898e1700 [db/db_impl_files.cc:461] [JOB 2] Try to delete WAL files size 15716562972, prev total WAL file size 20360369952, number of live WAL files 2.
+2018/04/25-09:34:49.749218 7f188a0e2700 [WARN] [db/db_impl.cc:491] ------- DUMPING STATS -------
+2018/04/25-09:34:49.749257 7f188a0e2700 [WARN] [db/db_impl.cc:492] 
+** DB Stats **
+Uptime(secs): 591.7 total, 591.7 interval
+Cumulative writes: 70M writes, 70M keys, 68M commit groups, 1.0 writes per commit group, ingest: 18.96 GB, 32.82 MB/s
+Cumulative WAL: 70M writes, 0 syncs, 70792065.00 writes per sync, written: 18.96 GB, 32.82 MB/s
+Cumulative stall: 00:00:0.000 H:M:S, 0.0 percent
+Interval writes: 70M writes, 70M keys, 68M commit groups, 1.0 writes per commit group, ingest: 19417.16 MB, 32.82 MB/s
+Interval WAL: 70M writes, 0 syncs, 70792065.00 writes per sync, written: 18.96 MB, 32.82 MB/s
+Interval stall: 00:00:0.000 H:M:S, 0.0 percent
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      1/0    5.82 GB  23.3      0.0     0.0      0.0       5.8      5.8       0.0   1.0      0.0     38.9       153         1  153.086       0      0
+ Sum      1/0    5.82 GB   0.0      0.0     0.0      0.0       5.8      5.8       0.0   1.0      0.0     38.9       153         1  153.086       0      0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       5.8      5.8       0.0   1.0      0.0     38.9       153         1  153.086       0      0
+Uptime(secs): 591.7 total, 591.7 interval
+Flush(GB): cumulative 5.819, interval 5.819
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 5.82 GB write, 10.07 MB/s write, 0.00 GB read, 0.00 MB/s read, 153.1 seconds
+Interval compaction: 5.82 GB write, 10.07 MB/s write, 0.00 GB read, 0.00 MB/s read, 153.1 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+** Level 0 read latency histogram (micros):
+Count: 4 Average: 2524.2500  StdDev: 4368.09
+Min: 1  Median: 1.0000  Max: 10090
+Percentiles: P50: 1.00 P75: 6.00 P99: 10090.00 P99.9: 10090.00 P99.99: 10090.00
+------------------------------------------------------
+[       0,       1 ]        2  50.000%  50.000% ##########
+(       4,       6 ]        1  25.000%  75.000% #####
+(    9900,   14000 ]        1  25.000% 100.000% #####
+
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      1/0    5.82 GB  23.3      0.0     0.0      0.0       5.8      5.8       0.0   1.0      0.0     38.9       153         1  153.086       0      0
+ Sum      1/0    5.82 GB   0.0      0.0     0.0      0.0       5.8      5.8       0.0   1.0      0.0     38.9       153         1  153.086       0      0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0         0         0    0.000       0      0
+Uptime(secs): 591.7 total, 0.0 interval
+Flush(GB): cumulative 5.819, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 5.82 GB write, 10.07 MB/s write, 0.00 GB read, 0.00 MB/s read, 153.1 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+** Level 0 read latency histogram (micros):
+Count: 4 Average: 2524.2500  StdDev: 4368.09
+Min: 1  Median: 1.0000  Max: 10090
+Percentiles: P50: 1.00 P75: 6.00 P99: 10090.00 P99.9: 10090.00 P99.99: 10090.00
+------------------------------------------------------
+[       0,       1 ]        2  50.000%  50.000% ##########
+(       4,       6 ]        1  25.000%  75.000% #####
+(    9900,   14000 ]        1  25.000% 100.000% #####
+
+2018/04/25-09:34:49.752422 7f188a0e2700 [WARN] [db/db_impl.cc:442] STATISTICS:
+ rocksdb.block.cache.miss COUNT : 1952761
+rocksdb.block.cache.hit COUNT : 0
+rocksdb.block.cache.add COUNT : 0
+rocksdb.block.cache.add.failures COUNT : 0
+rocksdb.block.cache.index.miss COUNT : 0
+rocksdb.block.cache.index.hit COUNT : 0
+rocksdb.block.cache.index.add COUNT : 0
+rocksdb.block.cache.index.bytes.insert COUNT : 0
+rocksdb.block.cache.index.bytes.evict COUNT : 0
+rocksdb.block.cache.filter.miss COUNT : 0
+rocksdb.block.cache.filter.hit COUNT : 0
+rocksdb.block.cache.filter.add COUNT : 0
+rocksdb.block.cache.filter.bytes.insert COUNT : 0
+rocksdb.block.cache.filter.bytes.evict COUNT : 0
+rocksdb.block.cache.data.miss COUNT : 1952761
+rocksdb.block.cache.data.hit COUNT : 0
+rocksdb.block.cache.data.add COUNT : 0
+rocksdb.block.cache.data.bytes.insert COUNT : 0
+rocksdb.block.cache.bytes.read COUNT : 0
+rocksdb.block.cache.bytes.write COUNT : 0
+rocksdb.bloom.filter.useful COUNT : 0
+rocksdb.bloom.filter.full.positive COUNT : 0
+rocksdb.bloom.filter.full.true.positive COUNT : 0
+rocksdb.persistent.cache.hit COUNT : 0
+rocksdb.persistent.cache.miss COUNT : 0
+rocksdb.sim.block.cache.hit COUNT : 0
+rocksdb.sim.block.cache.miss COUNT : 0
+rocksdb.memtable.hit COUNT : 0
+rocksdb.memtable.miss COUNT : 0
+rocksdb.l0.hit COUNT : 0
+rocksdb.l1.hit COUNT : 0
+rocksdb.l2andup.hit COUNT : 0
+rocksdb.compaction.key.drop.new COUNT : 0
+rocksdb.compaction.key.drop.obsolete COUNT : 0
+rocksdb.compaction.key.drop.range_del COUNT : 0
+rocksdb.compaction.key.drop.user COUNT : 0
+rocksdb.compaction.range_del.drop.obsolete COUNT : 0
+rocksdb.compaction.optimized.del.drop.obsolete COUNT : 0
+rocksdb.compaction.cancelled COUNT : 0
+rocksdb.number.keys.written COUNT : 175649677
+rocksdb.number.keys.read COUNT : 0
+rocksdb.number.keys.updated COUNT : 0
+rocksdb.bytes.written COUNT : 50526637992
+rocksdb.bytes.read COUNT : 0
+rocksdb.number.db.seek COUNT : 0
+rocksdb.number.db.next COUNT : 0
+rocksdb.number.db.prev COUNT : 0
+rocksdb.number.db.seek.found COUNT : 0
+rocksdb.number.db.next.found COUNT : 0
+rocksdb.number.db.prev.found COUNT : 0
+rocksdb.db.iter.bytes.read COUNT : 0
+rocksdb.no.file.closes COUNT : 0
+rocksdb.no.file.opens COUNT : 26
+rocksdb.no.file.errors COUNT : 0
+rocksdb.l0.slowdown.micros COUNT : 0
+rocksdb.memtable.compaction.micros COUNT : 0
+rocksdb.l0.num.files.stall.micros COUNT : 0
+rocksdb.stall.micros COUNT : 0
+rocksdb.db.mutex.wait.micros COUNT : 0
+rocksdb.rate.limit.delay.millis COUNT : 0
+rocksdb.num.iterators COUNT : 0
+rocksdb.number.multiget.get COUNT : 0
+rocksdb.number.multiget.keys.read COUNT : 0
+rocksdb.number.multiget.bytes.read COUNT : 0
+rocksdb.number.deletes.filtered COUNT : 0
+rocksdb.number.merge.failures COUNT : 0
+rocksdb.bloom.filter.prefix.checked COUNT : 0
+rocksdb.bloom.filter.prefix.useful COUNT : 0
+rocksdb.number.reseeks.iteration COUNT : 0
+rocksdb.getupdatessince.calls COUNT : 0
+rocksdb.block.cachecompressed.miss COUNT : 0
+rocksdb.block.cachecompressed.hit COUNT : 0
+rocksdb.block.cachecompressed.add COUNT : 0
+rocksdb.block.cachecompressed.add.failures COUNT : 0
+rocksdb.wal.synced COUNT : 0
+rocksdb.wal.bytes COUNT : 50526638568
+rocksdb.write.self COUNT : 170610597
+rocksdb.write.other COUNT : 5039082
+rocksdb.write.timeout COUNT : 0
+rocksdb.write.wal COUNT : 351299359
+rocksdb.compact.read.bytes COUNT : 1711987017
+rocksdb.compact.write.bytes COUNT : 1556234814
+rocksdb.flush.write.bytes COUNT : 7927400177
+rocksdb.number.direct.load.table.properties COUNT : 0
+rocksdb.number.superversion_acquires COUNT : 0
+rocksdb.number.superversion_releases COUNT : 0
+rocksdb.number.superversion_cleanups COUNT : 0
+rocksdb.number.block.compressed COUNT : 6330328
+rocksdb.number.block.decompressed COUNT : 1952787
+rocksdb.number.block.not_compressed COUNT : 0
+rocksdb.merge.operation.time.nanos COUNT : 0
+rocksdb.filter.operation.time.nanos COUNT : 0
+rocksdb.row.cache.hit COUNT : 0
+rocksdb.row.cache.miss COUNT : 0
+rocksdb.read.amp.estimate.useful.bytes COUNT : 0
+rocksdb.read.amp.total.read.bytes COUNT : 0
+rocksdb.number.rate_limiter.drains COUNT : 0
+rocksdb.number.iter.skip COUNT : 0
+rocksdb.blobdb.num.put COUNT : 0
+rocksdb.blobdb.num.write COUNT : 0
+rocksdb.blobdb.num.get COUNT : 0
+rocksdb.blobdb.num.multiget COUNT : 0
+rocksdb.blobdb.num.seek COUNT : 0
+rocksdb.blobdb.num.next COUNT : 0
+rocksdb.blobdb.num.prev COUNT : 0
+rocksdb.blobdb.num.keys.written COUNT : 0
+rocksdb.blobdb.num.keys.read COUNT : 0
+rocksdb.blobdb.bytes.written COUNT : 0
+rocksdb.blobdb.bytes.read COUNT : 0
+rocksdb.blobdb.write.inlined COUNT : 0
+rocksdb.blobdb.write.inlined.ttl COUNT : 0
+rocksdb.blobdb.write.blob COUNT : 0
+rocksdb.blobdb.write.blob.ttl COUNT : 0
+rocksdb.blobdb.blob.file.bytes.written COUNT : 0
+rocksdb.blobdb.blob.file.bytes.read COUNT : 0
+rocksdb.blobdb.blob.file.synced COUNT : 0
+rocksdb.blobdb.blob.index.expired.count COUNT : 0
+rocksdb.blobdb.blob.index.expired.size COUNT : 0
+rocksdb.blobdb.blob.index.evicted.count COUNT : 0
+rocksdb.blobdb.blob.index.evicted.size COUNT : 0
+rocksdb.blobdb.gc.num.files COUNT : 0
+rocksdb.blobdb.gc.num.new.files COUNT : 0
+rocksdb.blobdb.gc.failures COUNT : 0
+rocksdb.blobdb.gc.num.keys.overwritten COUNT : 0
+rocksdb.blobdb.gc.num.keys.expired COUNT : 0
+rocksdb.blobdb.gc.num.keys.relocated COUNT : 0
+rocksdb.blobdb.gc.bytes.overwritten COUNT : 0
+rocksdb.blobdb.gc.bytes.expired COUNT : 0
+rocksdb.blobdb.gc.bytes.relocated COUNT : 0
+rocksdb.blobdb.fifo.num.files.evicted COUNT : 0
+rocksdb.blobdb.fifo.num.keys.evicted COUNT : 0
+rocksdb.blobdb.fifo.bytes.evicted COUNT : 0
+rocksdb.txn.overhead.mutex.prepare COUNT : 0
+rocksdb.txn.overhead.mutex.old.commit.map COUNT : 0
+rocksdb.txn.overhead.duplicate.key COUNT : 0
+rocksdb.txn.overhead.mutex.snapshot COUNT : 0
+rocksdb.db.get.micros statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.db.write.micros statistics Percentiles :=> 50 : 14.474057 95 : 21.939148 99 : 31.692145 100 : 58756.000000
+rocksdb.compaction.times.micros statistics Percentiles :=> 50 : 74584874.000000 95 : 74584874.000000 99 : 74584874.000000 100 : 74584874.000000
+rocksdb.subcompaction.setup.times.micros statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.table.sync.micros statistics Percentiles :=> 50 : 4300000.000000 95 : 9347334.000000 99 : 9347334.000000 100 : 9347334.000000
+rocksdb.compaction.outfile.sync.micros statistics Percentiles :=> 50 : 148333.333333 95 : 5235000.000000 99 : 5988641.000000 100 : 5988641.000000
+rocksdb.wal.file.sync.micros statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.manifest.file.sync.micros statistics Percentiles :=> 50 : 2471.428571 95 : 152000.000000 99 : 345193.000000 100 : 345193.000000
+rocksdb.table.open.io.micros statistics Percentiles :=> 50 : 3400.000000 95 : 93162.000000 99 : 93162.000000 100 : 93162.000000
+rocksdb.db.multiget.micros statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.read.block.compaction.micros statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.read.block.get.micros statistics Percentiles :=> 50 : 2.854123 95 : 3.967312 99 : 5.518185 100 : 61.000000
+rocksdb.write.raw.block.micros statistics Percentiles :=> 50 : 0.569086 95 : 1.599047 99 : 1.934659 100 : 47566.000000
+rocksdb.l0.slowdown.count statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.memtable.compaction.count statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.num.files.stall.count statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.hard.rate.limit.delay.count statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.soft.rate.limit.delay.count statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.numfiles.in.singlecompaction statistics Percentiles :=> 50 : 1.000000 95 : 1.000000 99 : 1.000000 100 : 1.000000
+rocksdb.db.seek.micros statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.db.write.stall statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.sst.read.micros statistics Percentiles :=> 50 : 1.600000 95 : 362.666667 99 : 11950.000000 100 : 12181.000000
+rocksdb.num.subcompactions.scheduled statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.bytes.per.read statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.bytes.per.write statistics Percentiles :=> 50 : 316.978240 95 : 377.258656 99 : 512.285023 100 : 564.000000
+rocksdb.bytes.per.multiget statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.bytes.compressed statistics Percentiles :=> 50 : 3650.000000 95 : 4325.005332 99 : 4385.005805 100 : 84132626.000000
+rocksdb.bytes.decompressed statistics Percentiles :=> 50 : 3650.009602 95 : 4325.018935 99 : 4385.019764 100 : 84132626.000000
+rocksdb.compression.times.nanos statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.decompression.times.nanos statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.read.num.merge_operands statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.blobdb.key.size statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.blobdb.value.size statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.blobdb.write.micros statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.blobdb.get.micros statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.blobdb.multiget.micros statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.blobdb.seek.micros statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.blobdb.next.micros statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.blobdb.prev.micros statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.blobdb.blob.file.write.micros statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.blobdb.blob.file.read.micros statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.blobdb.blob.file.sync.micros statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.blobdb.gc.micros statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.blobdb.compression.micros statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.blobdb.decompression.micros statistics Percentiles :=> 50 : 0.000000 95 : 0.000000 99 : 0.000000 100 : 0.000000
+rocksdb.db.flush.micros statistics Percentiles :=> 50 : 135000000.000000 95 : 153086149.000000 99 : 153086149.000000 100 : 153086149.000000
+2018/04/25-09:34:49.752509 7f188a0e2700 [db/compaction_job.cc:1525] [default] [JOB 3] Compacting 1@0 files to L1, score 23.28
+2018/04/25-09:34:49.752514 7f188a0e2700 [db/compaction_job.cc:1529] [default] Compaction start summary: Base version 3 Base level 0, inputs: [7(5958MB)]
+2018/04/25-09:34:49.752529 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648889752520, "job": 3, "event": "compaction_started", "compaction_reason": "LevelL0FilesNum", "files_L0": [7], "score": 23.2772, "input_data_size": 6248437454}
+2018/04/25-09:34:50.953494 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #9: 380955 keys, 67570063 bytes
+2018/04/25-09:34:50.953535 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648890953521, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 9, "file_size": 67570063, "table_properties": {"data_size": 67111179, "index_size": 917824, "filter_size": 0, "raw_key_size": 9142920, "raw_average_key_size": 24, "raw_value_size": 97524480, "raw_average_value_size": 256, "num_data_blocks": 27212, "num_entries": 380955, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:34:52.048336 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #10: 380689 keys, 67568697 bytes
+2018/04/25-09:34:52.048378 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648892048363, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 10, "file_size": 67568697, "table_properties": {"data_size": 67110069, "index_size": 917420, "filter_size": 0, "raw_key_size": 9136536, "raw_average_key_size": 24, "raw_value_size": 97456384, "raw_average_value_size": 256, "num_data_blocks": 27193, "num_entries": 380689, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:34:53.113115 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #11: 380633 keys, 67569723 bytes
+2018/04/25-09:34:53.113155 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648893113141, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 11, "file_size": 67569723, "table_properties": {"data_size": 67111333, "index_size": 917428, "filter_size": 0, "raw_key_size": 9135192, "raw_average_key_size": 24, "raw_value_size": 97442048, "raw_average_value_size": 256, "num_data_blocks": 27189, "num_entries": 380633, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:34:54.172040 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #12: 380619 keys, 67567859 bytes
+2018/04/25-09:34:54.172080 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648894172066, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 12, "file_size": 67567859, "table_properties": {"data_size": 67109372, "index_size": 917201, "filter_size": 0, "raw_key_size": 9134856, "raw_average_key_size": 24, "raw_value_size": 97438464, "raw_average_value_size": 256, "num_data_blocks": 27188, "num_entries": 380619, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:34:55.220230 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #13: 380591 keys, 67567702 bytes
+2018/04/25-09:34:55.220271 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648895220257, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 13, "file_size": 67567702, "table_properties": {"data_size": 67109098, "index_size": 917523, "filter_size": 0, "raw_key_size": 9134184, "raw_average_key_size": 24, "raw_value_size": 97431296, "raw_average_value_size": 256, "num_data_blocks": 27186, "num_entries": 380591, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:34:56.269830 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #14: 380619 keys, 67569629 bytes
+2018/04/25-09:34:56.269870 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648896269855, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 14, "file_size": 67569629, "table_properties": {"data_size": 67110964, "index_size": 918176, "filter_size": 0, "raw_key_size": 9134856, "raw_average_key_size": 24, "raw_value_size": 97438464, "raw_average_value_size": 256, "num_data_blocks": 27188, "num_entries": 380619, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:34:57.323240 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #15: 380591 keys, 67568284 bytes
+2018/04/25-09:34:57.323281 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648897323257, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 15, "file_size": 67568284, "table_properties": {"data_size": 67109508, "index_size": 917467, "filter_size": 0, "raw_key_size": 9134184, "raw_average_key_size": 24, "raw_value_size": 97431296, "raw_average_value_size": 256, "num_data_blocks": 27186, "num_entries": 380591, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:34:58.378373 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #16: 380605 keys, 67568891 bytes
+2018/04/25-09:34:58.378413 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648898378399, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 16, "file_size": 67568891, "table_properties": {"data_size": 67110553, "index_size": 917517, "filter_size": 0, "raw_key_size": 9134520, "raw_average_key_size": 24, "raw_value_size": 97434880, "raw_average_value_size": 256, "num_data_blocks": 27187, "num_entries": 380605, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:34:59.433097 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #17: 380619 keys, 67567860 bytes
+2018/04/25-09:34:59.433136 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648899433122, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 17, "file_size": 67567860, "table_properties": {"data_size": 67109152, "index_size": 917990, "filter_size": 0, "raw_key_size": 9134856, "raw_average_key_size": 24, "raw_value_size": 97438464, "raw_average_value_size": 256, "num_data_blocks": 27188, "num_entries": 380619, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:00.486478 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #18: 380619 keys, 67568844 bytes
+2018/04/25-09:35:00.486517 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648900486503, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 18, "file_size": 67568844, "table_properties": {"data_size": 67110169, "index_size": 916964, "filter_size": 0, "raw_key_size": 9134856, "raw_average_key_size": 24, "raw_value_size": 97438464, "raw_average_value_size": 256, "num_data_blocks": 27188, "num_entries": 380619, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:01.535035 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #19: 380577 keys, 67568532 bytes
+2018/04/25-09:35:01.535074 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648901535049, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 19, "file_size": 67568532, "table_properties": {"data_size": 67110028, "index_size": 918095, "filter_size": 0, "raw_key_size": 9133848, "raw_average_key_size": 24, "raw_value_size": 97427712, "raw_average_value_size": 256, "num_data_blocks": 27185, "num_entries": 380577, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:02.593029 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #20: 380619 keys, 67570412 bytes
+2018/04/25-09:35:02.593068 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648902593044, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 20, "file_size": 67570412, "table_properties": {"data_size": 67111351, "index_size": 917364, "filter_size": 0, "raw_key_size": 9134856, "raw_average_key_size": 24, "raw_value_size": 97438464, "raw_average_value_size": 256, "num_data_blocks": 27188, "num_entries": 380619, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:10.558487 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #21: 380591 keys, 67568123 bytes
+2018/04/25-09:35:10.558539 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648910558524, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 21, "file_size": 67568123, "table_properties": {"data_size": 67109687, "index_size": 917278, "filter_size": 0, "raw_key_size": 9134184, "raw_average_key_size": 24, "raw_value_size": 97431296, "raw_average_value_size": 256, "num_data_blocks": 27186, "num_entries": 380591, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:13.616521 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #22: 380605 keys, 67568455 bytes
+2018/04/25-09:35:13.616563 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648913616547, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 22, "file_size": 67568455, "table_properties": {"data_size": 67109672, "index_size": 917748, "filter_size": 0, "raw_key_size": 9134520, "raw_average_key_size": 24, "raw_value_size": 97434880, "raw_average_value_size": 256, "num_data_blocks": 27187, "num_entries": 380605, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:14.691553 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #23: 380577 keys, 67568131 bytes
+2018/04/25-09:35:14.691594 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648914691569, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 23, "file_size": 67568131, "table_properties": {"data_size": 67109433, "index_size": 917011, "filter_size": 0, "raw_key_size": 9133848, "raw_average_key_size": 24, "raw_value_size": 97427712, "raw_average_value_size": 256, "num_data_blocks": 27185, "num_entries": 380577, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:15.764719 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #24: 380619 keys, 67569658 bytes
+2018/04/25-09:35:15.764751 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648915764736, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 24, "file_size": 67569658, "table_properties": {"data_size": 67111183, "index_size": 917642, "filter_size": 0, "raw_key_size": 9134856, "raw_average_key_size": 24, "raw_value_size": 97438464, "raw_average_value_size": 256, "num_data_blocks": 27188, "num_entries": 380619, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:16.842927 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #25: 380563 keys, 67568704 bytes
+2018/04/25-09:35:16.842968 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648916842952, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 25, "file_size": 67568704, "table_properties": {"data_size": 67110108, "index_size": 917648, "filter_size": 0, "raw_key_size": 9133512, "raw_average_key_size": 24, "raw_value_size": 97424128, "raw_average_value_size": 256, "num_data_blocks": 27184, "num_entries": 380563, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:17.927756 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #26: 380563 keys, 67568850 bytes
+2018/04/25-09:35:17.927796 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648917927782, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 26, "file_size": 67568850, "table_properties": {"data_size": 67110452, "index_size": 917596, "filter_size": 0, "raw_key_size": 9133512, "raw_average_key_size": 24, "raw_value_size": 97424128, "raw_average_value_size": 256, "num_data_blocks": 27184, "num_entries": 380563, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:18.981045 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #27: 380549 keys, 67568654 bytes
+2018/04/25-09:35:18.981085 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648918981071, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 27, "file_size": 67568654, "table_properties": {"data_size": 67110382, "index_size": 917804, "filter_size": 0, "raw_key_size": 9133176, "raw_average_key_size": 24, "raw_value_size": 97420544, "raw_average_value_size": 256, "num_data_blocks": 27183, "num_entries": 380549, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:20.049286 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #28: 380577 keys, 67568393 bytes
+2018/04/25-09:35:20.049325 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648920049311, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 28, "file_size": 67568393, "table_properties": {"data_size": 67110116, "index_size": 917457, "filter_size": 0, "raw_key_size": 9133848, "raw_average_key_size": 24, "raw_value_size": 97427712, "raw_average_value_size": 256, "num_data_blocks": 27185, "num_entries": 380577, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:21.106168 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #29: 380591 keys, 67567909 bytes
+2018/04/25-09:35:21.106209 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648921106185, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 29, "file_size": 67567909, "table_properties": {"data_size": 67109322, "index_size": 917148, "filter_size": 0, "raw_key_size": 9134184, "raw_average_key_size": 24, "raw_value_size": 97431296, "raw_average_value_size": 256, "num_data_blocks": 27186, "num_entries": 380591, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:22.173423 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #30: 380577 keys, 67569811 bytes
+2018/04/25-09:35:22.173464 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648922173450, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 30, "file_size": 67569811, "table_properties": {"data_size": 67111245, "index_size": 917444, "filter_size": 0, "raw_key_size": 9133848, "raw_average_key_size": 24, "raw_value_size": 97427712, "raw_average_value_size": 256, "num_data_blocks": 27185, "num_entries": 380577, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:23.235840 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #31: 380535 keys, 67568848 bytes
+2018/04/25-09:35:23.235880 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648923235855, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 31, "file_size": 67568848, "table_properties": {"data_size": 67110506, "index_size": 916945, "filter_size": 0, "raw_key_size": 9132840, "raw_average_key_size": 24, "raw_value_size": 97416960, "raw_average_value_size": 256, "num_data_blocks": 27182, "num_entries": 380535, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:24.300168 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #32: 380591 keys, 67569913 bytes
+2018/04/25-09:35:24.300207 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648924300183, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 32, "file_size": 67569913, "table_properties": {"data_size": 67111356, "index_size": 917880, "filter_size": 0, "raw_key_size": 9134184, "raw_average_key_size": 24, "raw_value_size": 97431296, "raw_average_value_size": 256, "num_data_blocks": 27186, "num_entries": 380591, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:25.362870 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #33: 380549 keys, 67568690 bytes
+2018/04/25-09:35:25.362910 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648925362896, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 33, "file_size": 67568690, "table_properties": {"data_size": 67109662, "index_size": 917117, "filter_size": 0, "raw_key_size": 9133176, "raw_average_key_size": 24, "raw_value_size": 97420544, "raw_average_value_size": 256, "num_data_blocks": 27183, "num_entries": 380549, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:26.417527 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #34: 380549 keys, 67568194 bytes
+2018/04/25-09:35:26.417568 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648926417554, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 34, "file_size": 67568194, "table_properties": {"data_size": 67109368, "index_size": 917127, "filter_size": 0, "raw_key_size": 9133176, "raw_average_key_size": 24, "raw_value_size": 97420544, "raw_average_value_size": 256, "num_data_blocks": 27183, "num_entries": 380549, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:27.478886 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #35: 380549 keys, 67568388 bytes
+2018/04/25-09:35:27.478928 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648927478913, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 35, "file_size": 67568388, "table_properties": {"data_size": 67109991, "index_size": 917254, "filter_size": 0, "raw_key_size": 9133176, "raw_average_key_size": 24, "raw_value_size": 97420544, "raw_average_value_size": 256, "num_data_blocks": 27183, "num_entries": 380549, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:28.547012 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #36: 380563 keys, 67568271 bytes
+2018/04/25-09:35:28.547053 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648928547028, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 36, "file_size": 67568271, "table_properties": {"data_size": 67109953, "index_size": 917234, "filter_size": 0, "raw_key_size": 9133512, "raw_average_key_size": 24, "raw_value_size": 97424128, "raw_average_value_size": 256, "num_data_blocks": 27184, "num_entries": 380563, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:29.627213 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #37: 380577 keys, 67569373 bytes
+2018/04/25-09:35:29.627253 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648929627229, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 37, "file_size": 67569373, "table_properties": {"data_size": 67111163, "index_size": 917569, "filter_size": 0, "raw_key_size": 9133848, "raw_average_key_size": 24, "raw_value_size": 97427712, "raw_average_value_size": 256, "num_data_blocks": 27185, "num_entries": 380577, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:30.699217 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #38: 380535 keys, 67569025 bytes
+2018/04/25-09:35:30.699259 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648930699244, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 38, "file_size": 67569025, "table_properties": {"data_size": 67110679, "index_size": 917804, "filter_size": 0, "raw_key_size": 9132840, "raw_average_key_size": 24, "raw_value_size": 97416960, "raw_average_value_size": 256, "num_data_blocks": 27182, "num_entries": 380535, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:31.778346 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #39: 380591 keys, 67567646 bytes
+2018/04/25-09:35:31.778387 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648931778361, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 39, "file_size": 67567646, "table_properties": {"data_size": 67109358, "index_size": 917693, "filter_size": 0, "raw_key_size": 9134184, "raw_average_key_size": 24, "raw_value_size": 97431296, "raw_average_value_size": 256, "num_data_blocks": 27186, "num_entries": 380591, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:32.847603 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #40: 380577 keys, 67567535 bytes
+2018/04/25-09:35:32.847645 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648932847630, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 40, "file_size": 67567535, "table_properties": {"data_size": 67109133, "index_size": 917494, "filter_size": 0, "raw_key_size": 9133848, "raw_average_key_size": 24, "raw_value_size": 97427712, "raw_average_value_size": 256, "num_data_blocks": 27185, "num_entries": 380577, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:33.921717 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #41: 380591 keys, 67569438 bytes
+2018/04/25-09:35:33.921758 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648933921733, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 41, "file_size": 67569438, "table_properties": {"data_size": 67110983, "index_size": 916966, "filter_size": 0, "raw_key_size": 9134184, "raw_average_key_size": 24, "raw_value_size": 97431296, "raw_average_value_size": 256, "num_data_blocks": 27186, "num_entries": 380591, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:34.990608 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #42: 380535 keys, 67568798 bytes
+2018/04/25-09:35:34.990648 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648934990633, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 42, "file_size": 67568798, "table_properties": {"data_size": 67110428, "index_size": 917325, "filter_size": 0, "raw_key_size": 9132840, "raw_average_key_size": 24, "raw_value_size": 97416960, "raw_average_value_size": 256, "num_data_blocks": 27182, "num_entries": 380535, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:36.055978 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #43: 380549 keys, 67568745 bytes
+2018/04/25-09:35:36.056019 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648936056004, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 43, "file_size": 67568745, "table_properties": {"data_size": 67110676, "index_size": 917205, "filter_size": 0, "raw_key_size": 9133176, "raw_average_key_size": 24, "raw_value_size": 97420544, "raw_average_value_size": 256, "num_data_blocks": 27183, "num_entries": 380549, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:37.124486 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #44: 380535 keys, 67569469 bytes
+2018/04/25-09:35:37.124528 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648937124512, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 44, "file_size": 67569469, "table_properties": {"data_size": 67111313, "index_size": 917618, "filter_size": 0, "raw_key_size": 9132840, "raw_average_key_size": 24, "raw_value_size": 97416960, "raw_average_value_size": 256, "num_data_blocks": 27182, "num_entries": 380535, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:38.210320 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #45: 380591 keys, 67567617 bytes
+2018/04/25-09:35:38.210361 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648938210345, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 45, "file_size": 67567617, "table_properties": {"data_size": 67109189, "index_size": 917276, "filter_size": 0, "raw_key_size": 9134184, "raw_average_key_size": 24, "raw_value_size": 97431296, "raw_average_value_size": 256, "num_data_blocks": 27186, "num_entries": 380591, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:39.287495 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #46: 380577 keys, 67567640 bytes
+2018/04/25-09:35:39.287535 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648939287510, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 46, "file_size": 67567640, "table_properties": {"data_size": 67109683, "index_size": 917322, "filter_size": 0, "raw_key_size": 9133848, "raw_average_key_size": 24, "raw_value_size": 97427712, "raw_average_value_size": 256, "num_data_blocks": 27185, "num_entries": 380577, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:40.377044 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #47: 380591 keys, 67569576 bytes
+2018/04/25-09:35:40.377086 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648940377061, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 47, "file_size": 67569576, "table_properties": {"data_size": 67111196, "index_size": 917778, "filter_size": 0, "raw_key_size": 9134184, "raw_average_key_size": 24, "raw_value_size": 97431296, "raw_average_value_size": 256, "num_data_blocks": 27186, "num_entries": 380591, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:41.471863 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #48: 380577 keys, 67568458 bytes
+2018/04/25-09:35:41.471904 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648941471889, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 48, "file_size": 67568458, "table_properties": {"data_size": 67110174, "index_size": 917112, "filter_size": 0, "raw_key_size": 9133848, "raw_average_key_size": 24, "raw_value_size": 97427712, "raw_average_value_size": 256, "num_data_blocks": 27185, "num_entries": 380577, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:42.559271 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #49: 380605 keys, 67569212 bytes
+2018/04/25-09:35:42.559312 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648942559298, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 49, "file_size": 67569212, "table_properties": {"data_size": 67110197, "index_size": 917335, "filter_size": 0, "raw_key_size": 9134520, "raw_average_key_size": 24, "raw_value_size": 97434880, "raw_average_value_size": 256, "num_data_blocks": 27187, "num_entries": 380605, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:43.651860 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #50: 380591 keys, 67568072 bytes
+2018/04/25-09:35:43.651902 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648943651887, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 50, "file_size": 67568072, "table_properties": {"data_size": 67109466, "index_size": 916820, "filter_size": 0, "raw_key_size": 9134184, "raw_average_key_size": 24, "raw_value_size": 97431296, "raw_average_value_size": 256, "num_data_blocks": 27186, "num_entries": 380591, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:50.764359 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #51: 380605 keys, 67567920 bytes
+2018/04/25-09:35:50.764399 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648950764384, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 51, "file_size": 67567920, "table_properties": {"data_size": 67109329, "index_size": 917657, "filter_size": 0, "raw_key_size": 9134520, "raw_average_key_size": 24, "raw_value_size": 97434880, "raw_average_value_size": 256, "num_data_blocks": 27187, "num_entries": 380605, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:52.886472 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #52: 380591 keys, 67569480 bytes
+2018/04/25-09:35:52.886516 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648952886500, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 52, "file_size": 67569480, "table_properties": {"data_size": 67111069, "index_size": 917706, "filter_size": 0, "raw_key_size": 9134184, "raw_average_key_size": 24, "raw_value_size": 97431296, "raw_average_value_size": 256, "num_data_blocks": 27186, "num_entries": 380591, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:53.966683 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #53: 380549 keys, 67567271 bytes
+2018/04/25-09:35:53.966724 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648953966709, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 53, "file_size": 67567271, "table_properties": {"data_size": 67109103, "index_size": 917067, "filter_size": 0, "raw_key_size": 9133176, "raw_average_key_size": 24, "raw_value_size": 97420544, "raw_average_value_size": 256, "num_data_blocks": 27183, "num_entries": 380549, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:55.040626 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #54: 380549 keys, 67568453 bytes
+2018/04/25-09:35:55.040657 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648955040644, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 54, "file_size": 67568453, "table_properties": {"data_size": 67110211, "index_size": 917138, "filter_size": 0, "raw_key_size": 9133176, "raw_average_key_size": 24, "raw_value_size": 97420544, "raw_average_value_size": 256, "num_data_blocks": 27183, "num_entries": 380549, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:56.096408 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #55: 380605 keys, 67567947 bytes
+2018/04/25-09:35:56.096448 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648956096434, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 55, "file_size": 67567947, "table_properties": {"data_size": 67109377, "index_size": 917115, "filter_size": 0, "raw_key_size": 9134520, "raw_average_key_size": 24, "raw_value_size": 97434880, "raw_average_value_size": 256, "num_data_blocks": 27187, "num_entries": 380605, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:57.150521 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #56: 380591 keys, 67569405 bytes
+2018/04/25-09:35:57.150561 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648957150546, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 56, "file_size": 67569405, "table_properties": {"data_size": 67111104, "index_size": 917684, "filter_size": 0, "raw_key_size": 9134184, "raw_average_key_size": 24, "raw_value_size": 97431296, "raw_average_value_size": 256, "num_data_blocks": 27186, "num_entries": 380591, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:58.346527 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #57: 380549 keys, 67568691 bytes
+2018/04/25-09:35:58.346568 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648958346553, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 57, "file_size": 67568691, "table_properties": {"data_size": 67110582, "index_size": 916750, "filter_size": 0, "raw_key_size": 9133176, "raw_average_key_size": 24, "raw_value_size": 97420544, "raw_average_value_size": 256, "num_data_blocks": 27183, "num_entries": 380549, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:35:59.417776 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #58: 380605 keys, 67568258 bytes
+2018/04/25-09:35:59.417815 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648959417800, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 58, "file_size": 67568258, "table_properties": {"data_size": 67109799, "index_size": 917199, "filter_size": 0, "raw_key_size": 9134520, "raw_average_key_size": 24, "raw_value_size": 97434880, "raw_average_value_size": 256, "num_data_blocks": 27187, "num_entries": 380605, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:00.486301 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #59: 380605 keys, 67568210 bytes
+2018/04/25-09:36:00.486342 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648960486327, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 59, "file_size": 67568210, "table_properties": {"data_size": 67109896, "index_size": 917742, "filter_size": 0, "raw_key_size": 9134520, "raw_average_key_size": 24, "raw_value_size": 97434880, "raw_average_value_size": 256, "num_data_blocks": 27187, "num_entries": 380605, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:01.562389 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #60: 380535 keys, 67567792 bytes
+2018/04/25-09:36:01.562427 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648961562403, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 60, "file_size": 67567792, "table_properties": {"data_size": 67109500, "index_size": 918060, "filter_size": 0, "raw_key_size": 9132840, "raw_average_key_size": 24, "raw_value_size": 97416960, "raw_average_value_size": 256, "num_data_blocks": 27182, "num_entries": 380535, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:02.625064 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #61: 380535 keys, 67567117 bytes
+2018/04/25-09:36:02.625104 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648962625080, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 61, "file_size": 67567117, "table_properties": {"data_size": 67109263, "index_size": 917228, "filter_size": 0, "raw_key_size": 9132840, "raw_average_key_size": 24, "raw_value_size": 97416960, "raw_average_value_size": 256, "num_data_blocks": 27182, "num_entries": 380535, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:03.682361 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #62: 380437 keys, 67568702 bytes
+2018/04/25-09:36:03.682401 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648963682378, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 62, "file_size": 67568702, "table_properties": {"data_size": 67110223, "index_size": 915825, "filter_size": 0, "raw_key_size": 9130488, "raw_average_key_size": 24, "raw_value_size": 97391872, "raw_average_value_size": 256, "num_data_blocks": 27175, "num_entries": 380437, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:04.747335 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #63: 380297 keys, 67568968 bytes
+2018/04/25-09:36:04.747375 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648964747360, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 63, "file_size": 67568968, "table_properties": {"data_size": 67110530, "index_size": 914504, "filter_size": 0, "raw_key_size": 9127128, "raw_average_key_size": 24, "raw_value_size": 97356032, "raw_average_value_size": 256, "num_data_blocks": 27165, "num_entries": 380297, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:05.849739 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #64: 380325 keys, 67569212 bytes
+2018/04/25-09:36:05.849778 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648965849754, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 64, "file_size": 67569212, "table_properties": {"data_size": 67111279, "index_size": 913584, "filter_size": 0, "raw_key_size": 9127800, "raw_average_key_size": 24, "raw_value_size": 97363200, "raw_average_value_size": 256, "num_data_blocks": 27167, "num_entries": 380325, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:06.944385 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #65: 380353 keys, 67569022 bytes
+2018/04/25-09:36:06.944426 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648966944411, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 65, "file_size": 67569022, "table_properties": {"data_size": 67110362, "index_size": 914838, "filter_size": 0, "raw_key_size": 9128472, "raw_average_key_size": 24, "raw_value_size": 97370368, "raw_average_value_size": 256, "num_data_blocks": 27169, "num_entries": 380353, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:08.045292 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #66: 380297 keys, 67570242 bytes
+2018/04/25-09:36:08.045333 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648968045308, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 66, "file_size": 67570242, "table_properties": {"data_size": 67111493, "index_size": 914430, "filter_size": 0, "raw_key_size": 9127128, "raw_average_key_size": 24, "raw_value_size": 97356032, "raw_average_value_size": 256, "num_data_blocks": 27165, "num_entries": 380297, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:09.128061 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #67: 380353 keys, 67569331 bytes
+2018/04/25-09:36:09.128101 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648969128086, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 67, "file_size": 67569331, "table_properties": {"data_size": 67110955, "index_size": 913788, "filter_size": 0, "raw_key_size": 9128472, "raw_average_key_size": 24, "raw_value_size": 97370368, "raw_average_value_size": 256, "num_data_blocks": 27169, "num_entries": 380353, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:10.207876 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #68: 380325 keys, 67568989 bytes
+2018/04/25-09:36:10.207916 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648970207891, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 68, "file_size": 67568989, "table_properties": {"data_size": 67110713, "index_size": 914608, "filter_size": 0, "raw_key_size": 9127800, "raw_average_key_size": 24, "raw_value_size": 97363200, "raw_average_value_size": 256, "num_data_blocks": 27167, "num_entries": 380325, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:11.279191 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #69: 380367 keys, 67570160 bytes
+2018/04/25-09:36:11.279231 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648971279217, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 69, "file_size": 67570160, "table_properties": {"data_size": 67111472, "index_size": 914280, "filter_size": 0, "raw_key_size": 9128808, "raw_average_key_size": 24, "raw_value_size": 97373952, "raw_average_value_size": 256, "num_data_blocks": 27170, "num_entries": 380367, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:12.346602 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #70: 380297 keys, 67567906 bytes
+2018/04/25-09:36:12.346654 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648972346618, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 70, "file_size": 67567906, "table_properties": {"data_size": 67109344, "index_size": 914330, "filter_size": 0, "raw_key_size": 9127128, "raw_average_key_size": 24, "raw_value_size": 97356032, "raw_average_value_size": 256, "num_data_blocks": 27165, "num_entries": 380297, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:13.411160 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #71: 380325 keys, 67569562 bytes
+2018/04/25-09:36:13.411201 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648973411187, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 71, "file_size": 67569562, "table_properties": {"data_size": 67110648, "index_size": 914607, "filter_size": 0, "raw_key_size": 9127800, "raw_average_key_size": 24, "raw_value_size": 97363200, "raw_average_value_size": 256, "num_data_blocks": 27167, "num_entries": 380325, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:14.466285 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #72: 380325 keys, 67567960 bytes
+2018/04/25-09:36:14.466325 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648974466300, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 72, "file_size": 67567960, "table_properties": {"data_size": 67109193, "index_size": 914682, "filter_size": 0, "raw_key_size": 9127800, "raw_average_key_size": 24, "raw_value_size": 97363200, "raw_average_value_size": 256, "num_data_blocks": 27167, "num_entries": 380325, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:15.554325 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #73: 380339 keys, 67568458 bytes
+2018/04/25-09:36:15.554365 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648975554351, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 73, "file_size": 67568458, "table_properties": {"data_size": 67109719, "index_size": 914232, "filter_size": 0, "raw_key_size": 9128136, "raw_average_key_size": 24, "raw_value_size": 97366784, "raw_average_value_size": 256, "num_data_blocks": 27168, "num_entries": 380339, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:16.676149 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #74: 380297 keys, 67569089 bytes
+2018/04/25-09:36:16.676190 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648976676175, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 74, "file_size": 67569089, "table_properties": {"data_size": 67110516, "index_size": 915059, "filter_size": 0, "raw_key_size": 9127128, "raw_average_key_size": 24, "raw_value_size": 97356032, "raw_average_value_size": 256, "num_data_blocks": 27165, "num_entries": 380297, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:17.755079 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #75: 380311 keys, 67569698 bytes
+2018/04/25-09:36:17.755119 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648977755104, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 75, "file_size": 67569698, "table_properties": {"data_size": 67111107, "index_size": 913686, "filter_size": 0, "raw_key_size": 9127464, "raw_average_key_size": 24, "raw_value_size": 97359616, "raw_average_value_size": 256, "num_data_blocks": 27166, "num_entries": 380311, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:18.837073 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #76: 380339 keys, 67569659 bytes
+2018/04/25-09:36:18.837115 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648978837100, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 76, "file_size": 67569659, "table_properties": {"data_size": 67111121, "index_size": 914354, "filter_size": 0, "raw_key_size": 9128136, "raw_average_key_size": 24, "raw_value_size": 97366784, "raw_average_value_size": 256, "num_data_blocks": 27168, "num_entries": 380339, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:19.926112 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #77: 380311 keys, 67568508 bytes
+2018/04/25-09:36:19.926154 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648979926139, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 77, "file_size": 67568508, "table_properties": {"data_size": 67109584, "index_size": 914129, "filter_size": 0, "raw_key_size": 9127464, "raw_average_key_size": 24, "raw_value_size": 97359616, "raw_average_value_size": 256, "num_data_blocks": 27166, "num_entries": 380311, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:21.017982 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #78: 380297 keys, 67567845 bytes
+2018/04/25-09:36:21.018025 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648981018010, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 78, "file_size": 67567845, "table_properties": {"data_size": 67109337, "index_size": 914686, "filter_size": 0, "raw_key_size": 9127128, "raw_average_key_size": 24, "raw_value_size": 97356032, "raw_average_value_size": 256, "num_data_blocks": 27165, "num_entries": 380297, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:22.113512 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #79: 380325 keys, 67568124 bytes
+2018/04/25-09:36:22.113553 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648982113539, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 79, "file_size": 67568124, "table_properties": {"data_size": 67109676, "index_size": 914070, "filter_size": 0, "raw_key_size": 9127800, "raw_average_key_size": 24, "raw_value_size": 97363200, "raw_average_value_size": 256, "num_data_blocks": 27167, "num_entries": 380325, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:29.291299 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #80: 380311 keys, 67569232 bytes
+2018/04/25-09:36:29.291351 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648989291336, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 80, "file_size": 67569232, "table_properties": {"data_size": 67110705, "index_size": 914210, "filter_size": 0, "raw_key_size": 9127464, "raw_average_key_size": 24, "raw_value_size": 97359616, "raw_average_value_size": 256, "num_data_blocks": 27166, "num_entries": 380311, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:31.491759 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #81: 380339 keys, 67567705 bytes
+2018/04/25-09:36:31.491802 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648991491787, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 81, "file_size": 67567705, "table_properties": {"data_size": 67109424, "index_size": 914085, "filter_size": 0, "raw_key_size": 9128136, "raw_average_key_size": 24, "raw_value_size": 97366784, "raw_average_value_size": 256, "num_data_blocks": 27168, "num_entries": 380339, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:32.573200 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #82: 380367 keys, 67569100 bytes
+2018/04/25-09:36:32.573243 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648992573227, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 82, "file_size": 67569100, "table_properties": {"data_size": 67110527, "index_size": 913984, "filter_size": 0, "raw_key_size": 9128808, "raw_average_key_size": 24, "raw_value_size": 97373952, "raw_average_value_size": 256, "num_data_blocks": 27170, "num_entries": 380367, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:33.685917 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #83: 380297 keys, 67568738 bytes
+2018/04/25-09:36:33.685959 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648993685944, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 83, "file_size": 67568738, "table_properties": {"data_size": 67110106, "index_size": 913958, "filter_size": 0, "raw_key_size": 9127128, "raw_average_key_size": 24, "raw_value_size": 97356032, "raw_average_value_size": 256, "num_data_blocks": 27165, "num_entries": 380297, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:34.757964 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #84: 380325 keys, 67569854 bytes
+2018/04/25-09:36:34.758007 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648994757992, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 84, "file_size": 67569854, "table_properties": {"data_size": 67111454, "index_size": 913831, "filter_size": 0, "raw_key_size": 9127800, "raw_average_key_size": 24, "raw_value_size": 97363200, "raw_average_value_size": 256, "num_data_blocks": 27167, "num_entries": 380325, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:35.822790 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #85: 380367 keys, 67567433 bytes
+2018/04/25-09:36:35.822833 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648995822817, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 85, "file_size": 67567433, "table_properties": {"data_size": 67109074, "index_size": 914014, "filter_size": 0, "raw_key_size": 9128808, "raw_average_key_size": 24, "raw_value_size": 97373952, "raw_average_value_size": 256, "num_data_blocks": 27170, "num_entries": 380367, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:36.891984 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #86: 380311 keys, 67568325 bytes
+2018/04/25-09:36:36.892025 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648996892010, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 86, "file_size": 67568325, "table_properties": {"data_size": 67110124, "index_size": 913806, "filter_size": 0, "raw_key_size": 9127464, "raw_average_key_size": 24, "raw_value_size": 97359616, "raw_average_value_size": 256, "num_data_blocks": 27166, "num_entries": 380311, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:37.958623 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #87: 380367 keys, 67568057 bytes
+2018/04/25-09:36:37.958664 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648997958650, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 87, "file_size": 67568057, "table_properties": {"data_size": 67109506, "index_size": 914037, "filter_size": 0, "raw_key_size": 9128808, "raw_average_key_size": 24, "raw_value_size": 97373952, "raw_average_value_size": 256, "num_data_blocks": 27170, "num_entries": 380367, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:39.028953 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #88: 380381 keys, 67569684 bytes
+2018/04/25-09:36:39.028995 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524648999028981, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 88, "file_size": 67569684, "table_properties": {"data_size": 67111039, "index_size": 914819, "filter_size": 0, "raw_key_size": 9129144, "raw_average_key_size": 24, "raw_value_size": 97377536, "raw_average_value_size": 256, "num_data_blocks": 27171, "num_entries": 380381, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:40.102015 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #89: 380367 keys, 67570046 bytes
+2018/04/25-09:36:40.102056 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524649000102042, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 89, "file_size": 67570046, "table_properties": {"data_size": 67111275, "index_size": 913832, "filter_size": 0, "raw_key_size": 9128808, "raw_average_key_size": 24, "raw_value_size": 97373952, "raw_average_value_size": 256, "num_data_blocks": 27170, "num_entries": 380367, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:41.177840 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #90: 380283 keys, 67569748 bytes
+2018/04/25-09:36:41.177881 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524649001177866, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 90, "file_size": 67569748, "table_properties": {"data_size": 67111324, "index_size": 913846, "filter_size": 0, "raw_key_size": 9126792, "raw_average_key_size": 24, "raw_value_size": 97352448, "raw_average_value_size": 256, "num_data_blocks": 27164, "num_entries": 380283, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:42.265927 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #91: 380353 keys, 67567951 bytes
+2018/04/25-09:36:42.265969 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524649002265953, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 91, "file_size": 67567951, "table_properties": {"data_size": 67109389, "index_size": 913568, "filter_size": 0, "raw_key_size": 9128472, "raw_average_key_size": 24, "raw_value_size": 97370368, "raw_average_value_size": 256, "num_data_blocks": 27169, "num_entries": 380353, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:43.357980 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #92: 380325 keys, 67569391 bytes
+2018/04/25-09:36:43.358022 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524649003358007, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 92, "file_size": 67569391, "table_properties": {"data_size": 67110767, "index_size": 914745, "filter_size": 0, "raw_key_size": 9127800, "raw_average_key_size": 24, "raw_value_size": 97363200, "raw_average_value_size": 256, "num_data_blocks": 27167, "num_entries": 380325, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:44.451738 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #93: 380339 keys, 67569894 bytes
+2018/04/25-09:36:44.451781 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524649004451765, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 93, "file_size": 67569894, "table_properties": {"data_size": 67111297, "index_size": 914197, "filter_size": 0, "raw_key_size": 9128136, "raw_average_key_size": 24, "raw_value_size": 97366784, "raw_average_value_size": 256, "num_data_blocks": 27168, "num_entries": 380339, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:45.528427 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #94: 380325 keys, 67570164 bytes
+2018/04/25-09:36:45.528469 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524649005528455, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 94, "file_size": 67570164, "table_properties": {"data_size": 67111521, "index_size": 914603, "filter_size": 0, "raw_key_size": 9127800, "raw_average_key_size": 24, "raw_value_size": 97363200, "raw_average_value_size": 256, "num_data_blocks": 27167, "num_entries": 380325, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:46.683727 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #95: 380269 keys, 67567718 bytes
+2018/04/25-09:36:46.683769 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524649006683755, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 95, "file_size": 67567718, "table_properties": {"data_size": 67109182, "index_size": 913941, "filter_size": 0, "raw_key_size": 9126456, "raw_average_key_size": 24, "raw_value_size": 97348864, "raw_average_value_size": 256, "num_data_blocks": 27163, "num_entries": 380269, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:47.761329 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #96: 380283 keys, 67568589 bytes
+2018/04/25-09:36:47.761370 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524649007761345, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 96, "file_size": 67568589, "table_properties": {"data_size": 67109982, "index_size": 915000, "filter_size": 0, "raw_key_size": 9126792, "raw_average_key_size": 24, "raw_value_size": 97352448, "raw_average_value_size": 256, "num_data_blocks": 27164, "num_entries": 380283, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:48.836636 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #97: 380325 keys, 67568894 bytes
+2018/04/25-09:36:48.836677 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524649008836662, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 97, "file_size": 67568894, "table_properties": {"data_size": 67110066, "index_size": 914480, "filter_size": 0, "raw_key_size": 9127800, "raw_average_key_size": 24, "raw_value_size": 97363200, "raw_average_value_size": 256, "num_data_blocks": 27167, "num_entries": 380325, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:49.077342 7f188a0e2700 [db/compaction_job.cc:1205] [default] [JOB 3] Generated table #98: 83570 keys, 14850079 bytes
+2018/04/25-09:36:49.077370 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524649009077357, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 98, "file_size": 14850079, "table_properties": {"data_size": 14748591, "index_size": 200351, "filter_size": 0, "raw_key_size": 2005680, "raw_average_key_size": 24, "raw_value_size": 21393920, "raw_average_value_size": 256, "num_data_blocks": 5970, "num_entries": 83570, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2018/04/25-09:36:49.079391 7f188a0e2700 [db/compaction_job.cc:1281] [default] [JOB 3] Compacted 1@0 files to L1 => 6028468673 bytes
+2018/04/25-09:36:49.082093 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.081856) [db/compaction_job.cc:682] [default] compacted to: base level 1 max bytes base 268435456 files[0 90 0 0 0 0 0] max score 22.46, MB/sec: 52.4 rd, 50.5 wr, level 1, files in(1, 0) out(90) MB in(5959.0, 0.0) out(5749.2), read-write-amplify(2.0) write-amplify(1.0) OK, records in: 33946649, records dropped: 0 output_compression: Snappy
+2018/04/25-09:36:49.082102 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.081886) EVENT_LOG_v1 {"time_micros": 1524649009081868, "job": 3, "event": "compaction_finished", "compaction_time_micros": 119326770, "output_level": 1, "num_output_files": 90, "total_output_size": 6028468673, "num_input_records": 33946649, "num_output_records": 33946649, "num_subcompactions": 1, "output_compression": "Snappy", "num_single_delete_mismatches": 0, "num_single_delete_fallthrough": 0, "lsm_state": [0, 90, 0, 0, 0, 0, 0]}
+2018/04/25-09:36:49.661638 7f188a0e2700 EVENT_LOG_v1 {"time_micros": 1524649009661634, "job": 3, "event": "table_file_deletion", "file_number": 7}
+2018/04/25-09:36:49.672006 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.661701) [db/db_impl_compaction_flush.cc:1830] [default] Moving #20 to level-2 67570412 bytes
+2018/04/25-09:36:49.672010 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.671977) EVENT_LOG_v1 {"time_micros": 1524649009671972, "job": 4, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67570412}
+2018/04/25-09:36:49.672012 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.671987) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67570412 bytes OK: base level 1 max bytes base 268435456 files[0 89 1 0 0 0 0] max score 22.21
+2018/04/25-09:36:49.674194 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.672086) [db/db_impl_compaction_flush.cc:1830] [default] Moving #66 to level-2 67570242 bytes
+2018/04/25-09:36:49.674197 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.674170) EVENT_LOG_v1 {"time_micros": 1524649009674166, "job": 5, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67570242}
+2018/04/25-09:36:49.674199 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.674174) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67570242 bytes OK: base level 1 max bytes base 268435456 files[0 88 2 0 0 0 0] max score 21.95
+2018/04/25-09:36:49.676399 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.674249) [db/db_impl_compaction_flush.cc:1830] [default] Moving #94 to level-2 67570164 bytes
+2018/04/25-09:36:49.676402 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.676390) EVENT_LOG_v1 {"time_micros": 1524649009676387, "job": 6, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67570164}
+2018/04/25-09:36:49.676404 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.676393) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67570164 bytes OK: base level 1 max bytes base 268435456 files[0 87 3 0 0 0 0] max score 21.70
+2018/04/25-09:36:49.678837 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.676445) [db/db_impl_compaction_flush.cc:1830] [default] Moving #69 to level-2 67570160 bytes
+2018/04/25-09:36:49.678839 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.678826) EVENT_LOG_v1 {"time_micros": 1524649009678824, "job": 7, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67570160}
+2018/04/25-09:36:49.678852 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.678830) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67570160 bytes OK: base level 1 max bytes base 268435456 files[0 86 4 0 0 0 0] max score 21.45
+2018/04/25-09:36:49.681175 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.678896) [db/db_impl_compaction_flush.cc:1830] [default] Moving #9 to level-2 67570063 bytes
+2018/04/25-09:36:49.681177 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.681164) EVENT_LOG_v1 {"time_micros": 1524649009681162, "job": 8, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67570063}
+2018/04/25-09:36:49.681179 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.681167) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67570063 bytes OK: base level 1 max bytes base 268435456 files[0 85 5 0 0 0 0] max score 21.20
+2018/04/25-09:36:49.683370 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.681233) [db/db_impl_compaction_flush.cc:1830] [default] Moving #89 to level-2 67570046 bytes
+2018/04/25-09:36:49.683372 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.683359) EVENT_LOG_v1 {"time_micros": 1524649009683357, "job": 9, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67570046}
+2018/04/25-09:36:49.683374 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.683362) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67570046 bytes OK: base level 1 max bytes base 268435456 files[0 84 6 0 0 0 0] max score 20.95
+2018/04/25-09:36:49.685937 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.683431) [db/db_impl_compaction_flush.cc:1830] [default] Moving #32 to level-2 67569913 bytes
+2018/04/25-09:36:49.685940 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.685927) EVENT_LOG_v1 {"time_micros": 1524649009685923, "job": 10, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67569913}
+2018/04/25-09:36:49.685942 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.685930) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67569913 bytes OK: base level 1 max bytes base 268435456 files[0 83 7 0 0 0 0] max score 20.70
+2018/04/25-09:36:49.688182 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.685999) [db/db_impl_compaction_flush.cc:1830] [default] Moving #93 to level-2 67569894 bytes
+2018/04/25-09:36:49.688184 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.688171) EVENT_LOG_v1 {"time_micros": 1524649009688168, "job": 11, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67569894}
+2018/04/25-09:36:49.688186 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.688174) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67569894 bytes OK: base level 1 max bytes base 268435456 files[0 82 8 0 0 0 0] max score 20.44
+2018/04/25-09:36:49.690628 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.688238) [db/db_impl_compaction_flush.cc:1830] [default] Moving #84 to level-2 67569854 bytes
+2018/04/25-09:36:49.690630 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.690617) EVENT_LOG_v1 {"time_micros": 1524649009690615, "job": 12, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67569854}
+2018/04/25-09:36:49.690632 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.690620) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67569854 bytes OK: base level 1 max bytes base 268435456 files[0 81 9 0 0 0 0] max score 20.19
+2018/04/25-09:36:49.692945 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.690677) [db/db_impl_compaction_flush.cc:1830] [default] Moving #30 to level-2 67569811 bytes
+2018/04/25-09:36:49.692947 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.692935) EVENT_LOG_v1 {"time_micros": 1524649009692932, "job": 13, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67569811}
+2018/04/25-09:36:49.692949 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.692938) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67569811 bytes OK: base level 1 max bytes base 268435456 files[0 80 10 0 0 0 0] max score 19.94
+2018/04/25-09:36:49.695149 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.693004) [db/db_impl_compaction_flush.cc:1830] [default] Moving #90 to level-2 67569748 bytes
+2018/04/25-09:36:49.695151 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.695138) EVENT_LOG_v1 {"time_micros": 1524649009695136, "job": 14, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67569748}
+2018/04/25-09:36:49.695153 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.695141) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67569748 bytes OK: base level 1 max bytes base 268435456 files[0 79 11 0 0 0 0] max score 19.69
+2018/04/25-09:36:49.697379 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.695193) [db/db_impl_compaction_flush.cc:1830] [default] Moving #11 to level-2 67569723 bytes
+2018/04/25-09:36:49.697381 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.697368) EVENT_LOG_v1 {"time_micros": 1524649009697366, "job": 15, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67569723}
+2018/04/25-09:36:49.697394 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.697371) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67569723 bytes OK: base level 1 max bytes base 268435456 files[0 78 12 0 0 0 0] max score 19.44
+2018/04/25-09:36:49.699719 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.697435) [db/db_impl_compaction_flush.cc:1830] [default] Moving #75 to level-2 67569698 bytes
+2018/04/25-09:36:49.699721 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.699709) EVENT_LOG_v1 {"time_micros": 1524649009699705, "job": 16, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67569698}
+2018/04/25-09:36:49.699723 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.699712) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67569698 bytes OK: base level 1 max bytes base 268435456 files[0 77 13 0 0 0 0] max score 19.19
+2018/04/25-09:36:49.701952 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.699783) [db/db_impl_compaction_flush.cc:1830] [default] Moving #88 to level-2 67569684 bytes
+2018/04/25-09:36:49.701954 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.701942) EVENT_LOG_v1 {"time_micros": 1524649009701938, "job": 17, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67569684}
+2018/04/25-09:36:49.701956 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.701945) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67569684 bytes OK: base level 1 max bytes base 268435456 files[0 76 14 0 0 0 0] max score 18.93
+2018/04/25-09:36:49.704148 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.702008) [db/db_impl_compaction_flush.cc:1830] [default] Moving #76 to level-2 67569659 bytes
+2018/04/25-09:36:49.704161 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.704138) EVENT_LOG_v1 {"time_micros": 1524649009704135, "job": 18, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67569659}
+2018/04/25-09:36:49.704163 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.704141) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67569659 bytes OK: base level 1 max bytes base 268435456 files[0 75 15 0 0 0 0] max score 18.68
+2018/04/25-09:36:49.706489 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.704204) [db/db_impl_compaction_flush.cc:1830] [default] Moving #24 to level-2 67569658 bytes
+2018/04/25-09:36:49.706491 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.706478) EVENT_LOG_v1 {"time_micros": 1524649009706476, "job": 19, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67569658}
+2018/04/25-09:36:49.706503 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.706481) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67569658 bytes OK: base level 1 max bytes base 268435456 files[0 74 16 0 0 0 0] max score 18.43
+2018/04/25-09:36:49.708908 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.706547) [db/db_impl_compaction_flush.cc:1830] [default] Moving #14 to level-2 67569629 bytes
+2018/04/25-09:36:49.708910 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.708897) EVENT_LOG_v1 {"time_micros": 1524649009708895, "job": 20, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67569629}
+2018/04/25-09:36:49.708912 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.708900) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67569629 bytes OK: base level 1 max bytes base 268435456 files[0 73 17 0 0 0 0] max score 18.18
+2018/04/25-09:36:49.711060 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.708953) [db/db_impl_compaction_flush.cc:1830] [default] Moving #47 to level-2 67569576 bytes
+2018/04/25-09:36:49.711062 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.711049) EVENT_LOG_v1 {"time_micros": 1524649009711046, "job": 21, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67569576}
+2018/04/25-09:36:49.711075 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.711052) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67569576 bytes OK: base level 1 max bytes base 268435456 files[0 72 18 0 0 0 0] max score 17.93
+2018/04/25-09:36:49.713225 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.711119) [db/db_impl_compaction_flush.cc:1830] [default] Moving #71 to level-2 67569562 bytes
+2018/04/25-09:36:49.713227 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.713215) EVENT_LOG_v1 {"time_micros": 1524649009713213, "job": 22, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67569562}
+2018/04/25-09:36:49.713240 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.713218) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67569562 bytes OK: base level 1 max bytes base 268435456 files[0 71 19 0 0 0 0] max score 17.68
+2018/04/25-09:36:49.715475 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.713289) [db/db_impl_compaction_flush.cc:1830] [default] Moving #52 to level-2 67569480 bytes
+2018/04/25-09:36:49.715477 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.715464) EVENT_LOG_v1 {"time_micros": 1524649009715462, "job": 23, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67569480}
+2018/04/25-09:36:49.715489 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.715467) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67569480 bytes OK: base level 1 max bytes base 268435456 files[0 70 20 0 0 0 0] max score 17.42
+2018/04/25-09:36:49.717957 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.715532) [db/db_impl_compaction_flush.cc:1830] [default] Moving #44 to level-2 67569469 bytes
+2018/04/25-09:36:49.717959 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.717946) EVENT_LOG_v1 {"time_micros": 1524649009717944, "job": 24, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67569469}
+2018/04/25-09:36:49.717972 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.717950) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67569469 bytes OK: base level 1 max bytes base 268435456 files[0 69 21 0 0 0 0] max score 17.17
+2018/04/25-09:36:49.720361 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.718015) [db/db_impl_compaction_flush.cc:1830] [default] Moving #41 to level-2 67569438 bytes
+2018/04/25-09:36:49.720363 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.720350) EVENT_LOG_v1 {"time_micros": 1524649009720347, "job": 25, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67569438}
+2018/04/25-09:36:49.720376 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.720353) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67569438 bytes OK: base level 1 max bytes base 268435456 files[0 68 22 0 0 0 0] max score 16.92
+2018/04/25-09:36:49.722385 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.720418) [db/db_impl_compaction_flush.cc:1830] [default] Moving #56 to level-2 67569405 bytes
+2018/04/25-09:36:49.722387 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.722375) EVENT_LOG_v1 {"time_micros": 1524649009722372, "job": 26, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67569405}
+2018/04/25-09:36:49.722400 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.722378) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67569405 bytes OK: base level 1 max bytes base 268435456 files[0 67 23 0 0 0 0] max score 16.67
+2018/04/25-09:36:49.724541 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.722441) [db/db_impl_compaction_flush.cc:1830] [default] Moving #92 to level-2 67569391 bytes
+2018/04/25-09:36:49.724543 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.724529) EVENT_LOG_v1 {"time_micros": 1524649009724526, "job": 27, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67569391}
+2018/04/25-09:36:49.724555 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.724533) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67569391 bytes OK: base level 1 max bytes base 268435456 files[0 66 24 0 0 0 0] max score 16.42
+2018/04/25-09:36:49.726734 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.724596) [db/db_impl_compaction_flush.cc:1830] [default] Moving #37 to level-2 67569373 bytes
+2018/04/25-09:36:49.726738 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.726712) EVENT_LOG_v1 {"time_micros": 1524649009726708, "job": 28, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67569373}
+2018/04/25-09:36:49.726740 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.726719) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67569373 bytes OK: base level 1 max bytes base 268435456 files[0 65 25 0 0 0 0] max score 16.16
+2018/04/25-09:36:49.729105 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.726813) [db/db_impl_compaction_flush.cc:1830] [default] Moving #67 to level-2 67569331 bytes
+2018/04/25-09:36:49.729118 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.729091) EVENT_LOG_v1 {"time_micros": 1524649009729088, "job": 29, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67569331}
+2018/04/25-09:36:49.729121 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.729095) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67569331 bytes OK: base level 1 max bytes base 268435456 files[0 64 26 0 0 0 0] max score 15.91
+2018/04/25-09:36:49.731272 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.729169) [db/db_impl_compaction_flush.cc:1830] [default] Moving #80 to level-2 67569232 bytes
+2018/04/25-09:36:49.731275 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.731251) EVENT_LOG_v1 {"time_micros": 1524649009731247, "job": 30, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67569232}
+2018/04/25-09:36:49.731277 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.731257) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67569232 bytes OK: base level 1 max bytes base 268435456 files[0 63 27 0 0 0 0] max score 15.66
+2018/04/25-09:36:49.733432 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.731347) [db/db_impl_compaction_flush.cc:1830] [default] Moving #64 to level-2 67569212 bytes
+2018/04/25-09:36:49.733434 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.733419) EVENT_LOG_v1 {"time_micros": 1524649009733416, "job": 31, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67569212}
+2018/04/25-09:36:49.733436 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.733423) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67569212 bytes OK: base level 1 max bytes base 268435456 files[0 62 28 0 0 0 0] max score 15.41
+2018/04/25-09:36:49.735686 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.733496) [db/db_impl_compaction_flush.cc:1830] [default] Moving #49 to level-2 67569212 bytes
+2018/04/25-09:36:49.735688 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.735675) EVENT_LOG_v1 {"time_micros": 1524649009735673, "job": 32, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67569212}
+2018/04/25-09:36:49.735690 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.735678) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67569212 bytes OK: base level 1 max bytes base 268435456 files[0 61 29 0 0 0 0] max score 15.16
+2018/04/25-09:36:49.737746 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.735742) [db/db_impl_compaction_flush.cc:1830] [default] Moving #82 to level-2 67569100 bytes
+2018/04/25-09:36:49.737748 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.737735) EVENT_LOG_v1 {"time_micros": 1524649009737732, "job": 33, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67569100}
+2018/04/25-09:36:49.737750 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.737738) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67569100 bytes OK: base level 1 max bytes base 268435456 files[0 60 30 0 0 0 0] max score 14.91
+2018/04/25-09:36:49.739797 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.737802) [db/db_impl_compaction_flush.cc:1830] [default] Moving #74 to level-2 67569089 bytes
+2018/04/25-09:36:49.739799 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.739787) EVENT_LOG_v1 {"time_micros": 1524649009739784, "job": 34, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67569089}
+2018/04/25-09:36:49.739812 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.739790) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67569089 bytes OK: base level 1 max bytes base 268435456 files[0 59 31 0 0 0 0] max score 14.65
+2018/04/25-09:36:49.741956 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.739864) [db/db_impl_compaction_flush.cc:1830] [default] Moving #38 to level-2 67569025 bytes
+2018/04/25-09:36:49.741958 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.741944) EVENT_LOG_v1 {"time_micros": 1524649009741941, "job": 35, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67569025}
+2018/04/25-09:36:49.741971 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.741948) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67569025 bytes OK: base level 1 max bytes base 268435456 files[0 58 32 0 0 0 0] max score 14.40
+2018/04/25-09:36:49.744052 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.742018) [db/db_impl_compaction_flush.cc:1830] [default] Moving #65 to level-2 67569022 bytes
+2018/04/25-09:36:49.744054 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.744041) EVENT_LOG_v1 {"time_micros": 1524649009744039, "job": 36, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67569022}
+2018/04/25-09:36:49.744067 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.744045) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67569022 bytes OK: base level 1 max bytes base 268435456 files[0 57 33 0 0 0 0] max score 14.15
+2018/04/25-09:36:49.746239 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.744111) [db/db_impl_compaction_flush.cc:1830] [default] Moving #68 to level-2 67568989 bytes
+2018/04/25-09:36:49.746241 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.746228) EVENT_LOG_v1 {"time_micros": 1524649009746226, "job": 37, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568989}
+2018/04/25-09:36:49.746243 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.746231) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568989 bytes OK: base level 1 max bytes base 268435456 files[0 56 34 0 0 0 0] max score 13.90
+2018/04/25-09:36:49.748452 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.746295) [db/db_impl_compaction_flush.cc:1830] [default] Moving #63 to level-2 67568968 bytes
+2018/04/25-09:36:49.748454 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.748441) EVENT_LOG_v1 {"time_micros": 1524649009748438, "job": 38, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568968}
+2018/04/25-09:36:49.748456 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.748445) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568968 bytes OK: base level 1 max bytes base 268435456 files[0 55 35 0 0 0 0] max score 13.65
+2018/04/25-09:36:49.750761 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.748511) [db/db_impl_compaction_flush.cc:1830] [default] Moving #97 to level-2 67568894 bytes
+2018/04/25-09:36:49.750763 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.750751) EVENT_LOG_v1 {"time_micros": 1524649009750747, "job": 39, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568894}
+2018/04/25-09:36:49.750765 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.750754) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568894 bytes OK: base level 1 max bytes base 268435456 files[0 54 36 0 0 0 0] max score 13.40
+2018/04/25-09:36:49.752973 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.750821) [db/db_impl_compaction_flush.cc:1830] [default] Moving #16 to level-2 67568891 bytes
+2018/04/25-09:36:49.752986 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.752963) EVENT_LOG_v1 {"time_micros": 1524649009752960, "job": 40, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568891}
+2018/04/25-09:36:49.752988 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.752966) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568891 bytes OK: base level 1 max bytes base 268435456 files[0 53 37 0 0 0 0] max score 13.14
+2018/04/25-09:36:49.755283 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.753032) [db/db_impl_compaction_flush.cc:1830] [default] Moving #26 to level-2 67568850 bytes
+2018/04/25-09:36:49.755285 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.755273) EVENT_LOG_v1 {"time_micros": 1524649009755271, "job": 41, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568850}
+2018/04/25-09:36:49.755298 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.755276) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568850 bytes OK: base level 1 max bytes base 268435456 files[0 52 38 0 0 0 0] max score 12.89
+2018/04/25-09:36:49.757376 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.755338) [db/db_impl_compaction_flush.cc:1830] [default] Moving #31 to level-2 67568848 bytes
+2018/04/25-09:36:49.757378 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.757365) EVENT_LOG_v1 {"time_micros": 1524649009757363, "job": 42, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568848}
+2018/04/25-09:36:49.757380 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.757368) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568848 bytes OK: base level 1 max bytes base 268435456 files[0 51 39 0 0 0 0] max score 12.64
+2018/04/25-09:36:49.759417 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.757436) [db/db_impl_compaction_flush.cc:1830] [default] Moving #18 to level-2 67568844 bytes
+2018/04/25-09:36:49.759419 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.759407) EVENT_LOG_v1 {"time_micros": 1524649009759405, "job": 43, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568844}
+2018/04/25-09:36:49.759421 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.759410) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568844 bytes OK: base level 1 max bytes base 268435456 files[0 50 40 0 0 0 0] max score 12.39
+2018/04/25-09:36:49.761456 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.759469) [db/db_impl_compaction_flush.cc:1830] [default] Moving #42 to level-2 67568798 bytes
+2018/04/25-09:36:49.761459 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.761445) EVENT_LOG_v1 {"time_micros": 1524649009761442, "job": 44, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568798}
+2018/04/25-09:36:49.761471 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.761448) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568798 bytes OK: base level 1 max bytes base 268435456 files[0 49 41 0 0 0 0] max score 12.14
+2018/04/25-09:36:49.763634 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.761516) [db/db_impl_compaction_flush.cc:1830] [default] Moving #43 to level-2 67568745 bytes
+2018/04/25-09:36:49.763636 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.763624) EVENT_LOG_v1 {"time_micros": 1524649009763622, "job": 45, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568745}
+2018/04/25-09:36:49.763638 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.763627) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568745 bytes OK: base level 1 max bytes base 268435456 files[0 48 42 0 0 0 0] max score 11.89
+2018/04/25-09:36:49.765661 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.763698) [db/db_impl_compaction_flush.cc:1830] [default] Moving #83 to level-2 67568738 bytes
+2018/04/25-09:36:49.765663 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.765651) EVENT_LOG_v1 {"time_micros": 1524649009765649, "job": 46, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568738}
+2018/04/25-09:36:49.765665 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.765654) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568738 bytes OK: base level 1 max bytes base 268435456 files[0 47 43 0 0 0 0] max score 11.63
+2018/04/25-09:36:49.768093 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.765720) [db/db_impl_compaction_flush.cc:1830] [default] Moving #25 to level-2 67568704 bytes
+2018/04/25-09:36:49.768095 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.768082) EVENT_LOG_v1 {"time_micros": 1524649009768080, "job": 47, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568704}
+2018/04/25-09:36:49.768097 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.768085) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568704 bytes OK: base level 1 max bytes base 268435456 files[0 46 44 0 0 0 0] max score 11.38
+2018/04/25-09:36:49.770190 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.768154) [db/db_impl_compaction_flush.cc:1830] [default] Moving #62 to level-2 67568702 bytes
+2018/04/25-09:36:49.770192 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.770180) EVENT_LOG_v1 {"time_micros": 1524649009770178, "job": 48, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568702}
+2018/04/25-09:36:49.770194 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.770183) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568702 bytes OK: base level 1 max bytes base 268435456 files[0 45 45 0 0 0 0] max score 11.13
+2018/04/25-09:36:49.772278 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.770248) [db/db_impl_compaction_flush.cc:1830] [default] Moving #10 to level-2 67568697 bytes
+2018/04/25-09:36:49.772291 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.772268) EVENT_LOG_v1 {"time_micros": 1524649009772264, "job": 49, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568697}
+2018/04/25-09:36:49.772293 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.772271) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568697 bytes OK: base level 1 max bytes base 268435456 files[0 44 46 0 0 0 0] max score 10.88
+2018/04/25-09:36:49.774485 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.772339) [db/db_impl_compaction_flush.cc:1830] [default] Moving #57 to level-2 67568691 bytes
+2018/04/25-09:36:49.774487 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.774475) EVENT_LOG_v1 {"time_micros": 1524649009774473, "job": 50, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568691}
+2018/04/25-09:36:49.774489 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.774478) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568691 bytes OK: base level 1 max bytes base 268435456 files[0 43 47 0 0 0 0] max score 10.63
+2018/04/25-09:36:49.776696 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.774542) [db/db_impl_compaction_flush.cc:1830] [default] Moving #33 to level-2 67568690 bytes
+2018/04/25-09:36:49.776698 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.776686) EVENT_LOG_v1 {"time_micros": 1524649009776684, "job": 51, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568690}
+2018/04/25-09:36:49.776700 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.776689) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568690 bytes OK: base level 1 max bytes base 268435456 files[0 42 48 0 0 0 0] max score 10.38
+2018/04/25-09:36:49.778816 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.776749) [db/db_impl_compaction_flush.cc:1830] [default] Moving #27 to level-2 67568654 bytes
+2018/04/25-09:36:49.778818 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.778806) EVENT_LOG_v1 {"time_micros": 1524649009778804, "job": 52, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568654}
+2018/04/25-09:36:49.778820 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.778809) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568654 bytes OK: base level 1 max bytes base 268435456 files[0 41 49 0 0 0 0] max score 10.12
+2018/04/25-09:36:49.781020 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.778872) [db/db_impl_compaction_flush.cc:1830] [default] Moving #96 to level-2 67568589 bytes
+2018/04/25-09:36:49.781022 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.781010) EVENT_LOG_v1 {"time_micros": 1524649009781008, "job": 53, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568589}
+2018/04/25-09:36:49.781024 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.781013) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568589 bytes OK: base level 1 max bytes base 268435456 files[0 40 50 0 0 0 0] max score 9.87
+2018/04/25-09:36:49.783098 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.781082) [db/db_impl_compaction_flush.cc:1830] [default] Moving #19 to level-2 67568532 bytes
+2018/04/25-09:36:49.783100 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.783088) EVENT_LOG_v1 {"time_micros": 1524649009783086, "job": 54, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568532}
+2018/04/25-09:36:49.783102 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.783091) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568532 bytes OK: base level 1 max bytes base 268435456 files[0 39 51 0 0 0 0] max score 9.62
+2018/04/25-09:36:49.785238 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.783155) [db/db_impl_compaction_flush.cc:1830] [default] Moving #77 to level-2 67568508 bytes
+2018/04/25-09:36:49.785240 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.785228) EVENT_LOG_v1 {"time_micros": 1524649009785226, "job": 55, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568508}
+2018/04/25-09:36:49.785242 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.785231) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568508 bytes OK: base level 1 max bytes base 268435456 files[0 38 52 0 0 0 0] max score 9.37
+2018/04/25-09:36:49.787248 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.785294) [db/db_impl_compaction_flush.cc:1830] [default] Moving #48 to level-2 67568458 bytes
+2018/04/25-09:36:49.787250 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.787238) EVENT_LOG_v1 {"time_micros": 1524649009787235, "job": 56, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568458}
+2018/04/25-09:36:49.787252 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.787241) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568458 bytes OK: base level 1 max bytes base 268435456 files[0 37 53 0 0 0 0] max score 9.12
+2018/04/25-09:36:49.789441 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.787308) [db/db_impl_compaction_flush.cc:1830] [default] Moving #73 to level-2 67568458 bytes
+2018/04/25-09:36:49.789443 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.789431) EVENT_LOG_v1 {"time_micros": 1524649009789428, "job": 57, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568458}
+2018/04/25-09:36:49.789445 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.789434) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568458 bytes OK: base level 1 max bytes base 268435456 files[0 36 54 0 0 0 0] max score 8.87
+2018/04/25-09:36:49.791417 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.789500) [db/db_impl_compaction_flush.cc:1830] [default] Moving #22 to level-2 67568455 bytes
+2018/04/25-09:36:49.791419 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.791407) EVENT_LOG_v1 {"time_micros": 1524649009791404, "job": 58, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568455}
+2018/04/25-09:36:49.791421 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.791410) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568455 bytes OK: base level 1 max bytes base 268435456 files[0 35 55 0 0 0 0] max score 8.61
+2018/04/25-09:36:49.793734 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.791470) [db/db_impl_compaction_flush.cc:1830] [default] Moving #54 to level-2 67568453 bytes
+2018/04/25-09:36:49.793736 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.793724) EVENT_LOG_v1 {"time_micros": 1524649009793721, "job": 59, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568453}
+2018/04/25-09:36:49.793765 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.793727) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568453 bytes OK: base level 1 max bytes base 268435456 files[0 34 56 0 0 0 0] max score 8.36
+2018/04/25-09:36:49.796374 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.793819) [db/db_impl_compaction_flush.cc:1830] [default] Moving #28 to level-2 67568393 bytes
+2018/04/25-09:36:49.796376 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.796364) EVENT_LOG_v1 {"time_micros": 1524649009796362, "job": 60, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568393}
+2018/04/25-09:36:49.796378 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.796367) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568393 bytes OK: base level 1 max bytes base 268435456 files[0 33 57 0 0 0 0] max score 8.11
+2018/04/25-09:36:49.798455 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.796431) [db/db_impl_compaction_flush.cc:1830] [default] Moving #35 to level-2 67568388 bytes
+2018/04/25-09:36:49.798457 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.798446) EVENT_LOG_v1 {"time_micros": 1524649009798443, "job": 61, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568388}
+2018/04/25-09:36:49.798459 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.798449) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568388 bytes OK: base level 1 max bytes base 268435456 files[0 32 58 0 0 0 0] max score 7.86
+2018/04/25-09:36:49.800644 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.798511) [db/db_impl_compaction_flush.cc:1830] [default] Moving #86 to level-2 67568325 bytes
+2018/04/25-09:36:49.800647 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.800635) EVENT_LOG_v1 {"time_micros": 1524649009800633, "job": 62, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568325}
+2018/04/25-09:36:49.800649 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.800637) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568325 bytes OK: base level 1 max bytes base 268435456 files[0 31 59 0 0 0 0] max score 7.61
+2018/04/25-09:36:49.802699 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.800705) [db/db_impl_compaction_flush.cc:1830] [default] Moving #15 to level-2 67568284 bytes
+2018/04/25-09:36:49.802701 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.802688) EVENT_LOG_v1 {"time_micros": 1524649009802685, "job": 63, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568284}
+2018/04/25-09:36:49.802703 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.802691) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568284 bytes OK: base level 1 max bytes base 268435456 files[0 30 60 0 0 0 0] max score 7.35
+2018/04/25-09:36:49.804772 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.802760) [db/db_impl_compaction_flush.cc:1830] [default] Moving #36 to level-2 67568271 bytes
+2018/04/25-09:36:49.804774 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.804762) EVENT_LOG_v1 {"time_micros": 1524649009804760, "job": 64, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568271}
+2018/04/25-09:36:49.804776 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.804765) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568271 bytes OK: base level 1 max bytes base 268435456 files[0 29 61 0 0 0 0] max score 7.10
+2018/04/25-09:36:49.807051 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.804827) [db/db_impl_compaction_flush.cc:1830] [default] Moving #58 to level-2 67568258 bytes
+2018/04/25-09:36:49.807064 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.807041) EVENT_LOG_v1 {"time_micros": 1524649009807037, "job": 65, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568258}
+2018/04/25-09:36:49.807066 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.807044) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568258 bytes OK: base level 1 max bytes base 268435456 files[0 28 62 0 0 0 0] max score 6.85
+2018/04/25-09:36:49.809394 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.807113) [db/db_impl_compaction_flush.cc:1830] [default] Moving #59 to level-2 67568210 bytes
+2018/04/25-09:36:49.809396 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.809383) EVENT_LOG_v1 {"time_micros": 1524649009809380, "job": 66, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568210}
+2018/04/25-09:36:49.809408 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.809386) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568210 bytes OK: base level 1 max bytes base 268435456 files[0 27 63 0 0 0 0] max score 6.60
+2018/04/25-09:36:49.811490 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.809453) [db/db_impl_compaction_flush.cc:1830] [default] Moving #34 to level-2 67568194 bytes
+2018/04/25-09:36:49.811492 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.811481) EVENT_LOG_v1 {"time_micros": 1524649009811478, "job": 67, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568194}
+2018/04/25-09:36:49.811494 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.811483) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568194 bytes OK: base level 1 max bytes base 268435456 files[0 26 64 0 0 0 0] max score 6.35
+2018/04/25-09:36:49.813732 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.811545) [db/db_impl_compaction_flush.cc:1830] [default] Moving #23 to level-2 67568131 bytes
+2018/04/25-09:36:49.813734 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.813721) EVENT_LOG_v1 {"time_micros": 1524649009813718, "job": 68, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568131}
+2018/04/25-09:36:49.813747 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.813724) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568131 bytes OK: base level 1 max bytes base 268435456 files[0 25 65 0 0 0 0] max score 6.10
+2018/04/25-09:36:49.816058 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.813793) [db/db_impl_compaction_flush.cc:1830] [default] Moving #79 to level-2 67568124 bytes
+2018/04/25-09:36:49.816060 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.816048) EVENT_LOG_v1 {"time_micros": 1524649009816046, "job": 69, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568124}
+2018/04/25-09:36:49.816072 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.816051) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568124 bytes OK: base level 1 max bytes base 268435456 files[0 24 66 0 0 0 0] max score 5.84
+2018/04/25-09:36:49.818426 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.816119) [db/db_impl_compaction_flush.cc:1830] [default] Moving #21 to level-2 67568123 bytes
+2018/04/25-09:36:49.818428 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.818416) EVENT_LOG_v1 {"time_micros": 1524649009818414, "job": 70, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568123}
+2018/04/25-09:36:49.818430 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.818419) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568123 bytes OK: base level 1 max bytes base 268435456 files[0 23 67 0 0 0 0] max score 5.59
+2018/04/25-09:36:49.820411 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.818485) [db/db_impl_compaction_flush.cc:1830] [default] Moving #50 to level-2 67568072 bytes
+2018/04/25-09:36:49.820413 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.820402) EVENT_LOG_v1 {"time_micros": 1524649009820399, "job": 71, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568072}
+2018/04/25-09:36:49.820415 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.820404) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568072 bytes OK: base level 1 max bytes base 268435456 files[0 22 68 0 0 0 0] max score 5.34
+2018/04/25-09:36:49.822575 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.820475) [db/db_impl_compaction_flush.cc:1830] [default] Moving #87 to level-2 67568057 bytes
+2018/04/25-09:36:49.822577 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.822565) EVENT_LOG_v1 {"time_micros": 1524649009822562, "job": 72, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67568057}
+2018/04/25-09:36:49.822579 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.822568) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67568057 bytes OK: base level 1 max bytes base 268435456 files[0 21 69 0 0 0 0] max score 5.09
+2018/04/25-09:36:49.824601 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.822631) [db/db_impl_compaction_flush.cc:1830] [default] Moving #72 to level-2 67567960 bytes
+2018/04/25-09:36:49.824603 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.824592) EVENT_LOG_v1 {"time_micros": 1524649009824588, "job": 73, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67567960}
+2018/04/25-09:36:49.824605 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.824594) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67567960 bytes OK: base level 1 max bytes base 268435456 files[0 20 70 0 0 0 0] max score 4.84
+2018/04/25-09:36:49.826686 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.824659) [db/db_impl_compaction_flush.cc:1830] [default] Moving #91 to level-2 67567951 bytes
+2018/04/25-09:36:49.826689 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.826667) EVENT_LOG_v1 {"time_micros": 1524649009826664, "job": 74, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67567951}
+2018/04/25-09:36:49.826691 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.826670) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67567951 bytes OK: base level 1 max bytes base 268435456 files[0 19 71 0 0 0 0] max score 4.59
+2018/04/25-09:36:49.828743 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.826732) [db/db_impl_compaction_flush.cc:1830] [default] Moving #55 to level-2 67567947 bytes
+2018/04/25-09:36:49.828745 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.828733) EVENT_LOG_v1 {"time_micros": 1524649009828731, "job": 75, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67567947}
+2018/04/25-09:36:49.828758 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.828736) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67567947 bytes OK: base level 1 max bytes base 268435456 files[0 18 72 0 0 0 0] max score 4.33
+2018/04/25-09:36:49.830890 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.828801) [db/db_impl_compaction_flush.cc:1830] [default] Moving #51 to level-2 67567920 bytes
+2018/04/25-09:36:49.830892 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.830881) EVENT_LOG_v1 {"time_micros": 1524649009830877, "job": 76, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67567920}
+2018/04/25-09:36:49.830905 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.830883) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67567920 bytes OK: base level 1 max bytes base 268435456 files[0 17 73 0 0 0 0] max score 4.08
+2018/04/25-09:36:49.833020 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.830946) [db/db_impl_compaction_flush.cc:1830] [default] Moving #29 to level-2 67567909 bytes
+2018/04/25-09:36:49.833022 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.833010) EVENT_LOG_v1 {"time_micros": 1524649009833007, "job": 77, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67567909}
+2018/04/25-09:36:49.833024 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.833012) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67567909 bytes OK: base level 1 max bytes base 268435456 files[0 16 74 0 0 0 0] max score 3.83
+2018/04/25-09:36:49.835241 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.833077) [db/db_impl_compaction_flush.cc:1830] [default] Moving #70 to level-2 67567906 bytes
+2018/04/25-09:36:49.835243 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.835231) EVENT_LOG_v1 {"time_micros": 1524649009835229, "job": 78, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67567906}
+2018/04/25-09:36:49.835255 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.835234) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67567906 bytes OK: base level 1 max bytes base 268435456 files[0 15 75 0 0 0 0] max score 3.58
+2018/04/25-09:36:49.837629 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.835301) [db/db_impl_compaction_flush.cc:1830] [default] Moving #17 to level-2 67567860 bytes
+2018/04/25-09:36:49.837631 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.837619) EVENT_LOG_v1 {"time_micros": 1524649009837617, "job": 79, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67567860}
+2018/04/25-09:36:49.837633 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.837622) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67567860 bytes OK: base level 1 max bytes base 268435456 files[0 14 76 0 0 0 0] max score 3.33
+2018/04/25-09:36:49.839698 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.837685) [db/db_impl_compaction_flush.cc:1830] [default] Moving #12 to level-2 67567859 bytes
+2018/04/25-09:36:49.839700 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.839689) EVENT_LOG_v1 {"time_micros": 1524649009839687, "job": 80, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67567859}
+2018/04/25-09:36:49.839702 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.839691) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67567859 bytes OK: base level 1 max bytes base 268435456 files[0 13 77 0 0 0 0] max score 3.08
+2018/04/25-09:36:49.841817 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.839749) [db/db_impl_compaction_flush.cc:1830] [default] Moving #78 to level-2 67567845 bytes
+2018/04/25-09:36:49.841819 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.841807) EVENT_LOG_v1 {"time_micros": 1524649009841805, "job": 81, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67567845}
+2018/04/25-09:36:49.841821 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.841810) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67567845 bytes OK: base level 1 max bytes base 268435456 files[0 12 78 0 0 0 0] max score 2.82
+2018/04/25-09:36:49.843900 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.841872) [db/db_impl_compaction_flush.cc:1830] [default] Moving #60 to level-2 67567792 bytes
+2018/04/25-09:36:49.843902 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.843891) EVENT_LOG_v1 {"time_micros": 1524649009843887, "job": 82, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67567792}
+2018/04/25-09:36:49.843905 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.843894) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67567792 bytes OK: base level 1 max bytes base 268435456 files[0 11 79 0 0 0 0] max score 2.57
+2018/04/25-09:36:49.845899 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.843967) [db/db_impl_compaction_flush.cc:1830] [default] Moving #95 to level-2 67567718 bytes
+2018/04/25-09:36:49.845901 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.845889) EVENT_LOG_v1 {"time_micros": 1524649009845886, "job": 83, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67567718}
+2018/04/25-09:36:49.845903 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.845892) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67567718 bytes OK: base level 1 max bytes base 268435456 files[0 10 80 0 0 0 0] max score 2.32
+2018/04/25-09:36:49.847949 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.845954) [db/db_impl_compaction_flush.cc:1830] [default] Moving #81 to level-2 67567705 bytes
+2018/04/25-09:36:49.847951 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.847939) EVENT_LOG_v1 {"time_micros": 1524649009847936, "job": 84, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67567705}
+2018/04/25-09:36:49.847953 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.847942) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67567705 bytes OK: base level 1 max bytes base 268435456 files[0 9 81 0 0 0 0] max score 2.07
+2018/04/25-09:36:49.850112 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.848010) [db/db_impl_compaction_flush.cc:1830] [default] Moving #13 to level-2 67567702 bytes
+2018/04/25-09:36:49.850115 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.850103) EVENT_LOG_v1 {"time_micros": 1524649009850101, "job": 85, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67567702}
+2018/04/25-09:36:49.850116 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.850105) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67567702 bytes OK: base level 1 max bytes base 268435456 files[0 8 82 0 0 0 0] max score 2.06
+2018/04/25-09:36:49.852476 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.850172) [db/db_impl_compaction_flush.cc:1830] [default] Moving #20 to level-3 67570412 bytes
+2018/04/25-09:36:49.852478 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.852466) EVENT_LOG_v1 {"time_micros": 1524649009852464, "job": 86, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67570412}
+2018/04/25-09:36:49.852491 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.852469) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67570412 bytes OK: base level 1 max bytes base 268435456 files[0 8 81 1 0 0 0] max score 2.04
+2018/04/25-09:36:49.854616 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.852535) [db/db_impl_compaction_flush.cc:1830] [default] Moving #66 to level-3 67570242 bytes
+2018/04/25-09:36:49.854618 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.854606) EVENT_LOG_v1 {"time_micros": 1524649009854604, "job": 87, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67570242}
+2018/04/25-09:36:49.854620 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.854609) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67570242 bytes OK: base level 1 max bytes base 268435456 files[0 8 80 2 0 0 0] max score 2.01
+2018/04/25-09:36:49.856705 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.854674) [db/db_impl_compaction_flush.cc:1830] [default] Moving #94 to level-3 67570164 bytes
+2018/04/25-09:36:49.856707 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.856695) EVENT_LOG_v1 {"time_micros": 1524649009856692, "job": 88, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67570164}
+2018/04/25-09:36:49.856709 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.856697) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67570164 bytes OK: base level 1 max bytes base 268435456 files[0 8 79 3 0 0 0] max score 1.99
+2018/04/25-09:36:49.858849 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.856768) [db/db_impl_compaction_flush.cc:1830] [default] Moving #69 to level-3 67570160 bytes
+2018/04/25-09:36:49.858851 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.858839) EVENT_LOG_v1 {"time_micros": 1524649009858837, "job": 89, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67570160}
+2018/04/25-09:36:49.858853 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.858842) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67570160 bytes OK: base level 1 max bytes base 268435456 files[0 8 78 4 0 0 0] max score 1.96
+2018/04/25-09:36:49.861236 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.858909) [db/db_impl_compaction_flush.cc:1830] [default] Moving #9 to level-3 67570063 bytes
+2018/04/25-09:36:49.861249 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.861226) EVENT_LOG_v1 {"time_micros": 1524649009861224, "job": 90, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67570063}
+2018/04/25-09:36:49.861251 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.861229) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67570063 bytes OK: base level 1 max bytes base 268435456 files[0 8 77 5 0 0 0] max score 1.94
+2018/04/25-09:36:49.863629 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.861298) [db/db_impl_compaction_flush.cc:1830] [default] Moving #89 to level-3 67570046 bytes
+2018/04/25-09:36:49.863631 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.863619) EVENT_LOG_v1 {"time_micros": 1524649009863616, "job": 91, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67570046}
+2018/04/25-09:36:49.863633 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.863622) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67570046 bytes OK: base level 1 max bytes base 268435456 files[0 8 76 6 0 0 0] max score 1.91
+2018/04/25-09:36:49.866022 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.863688) [db/db_impl_compaction_flush.cc:1830] [default] Moving #32 to level-3 67569913 bytes
+2018/04/25-09:36:49.866024 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.866012) EVENT_LOG_v1 {"time_micros": 1524649009866010, "job": 92, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67569913}
+2018/04/25-09:36:49.866026 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.866014) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67569913 bytes OK: base level 1 max bytes base 268435456 files[0 8 75 7 0 0 0] max score 1.89
+2018/04/25-09:36:49.868260 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.866081) [db/db_impl_compaction_flush.cc:1830] [default] Moving #93 to level-3 67569894 bytes
+2018/04/25-09:36:49.868273 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.868248) EVENT_LOG_v1 {"time_micros": 1524649009868245, "job": 93, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67569894}
+2018/04/25-09:36:49.868275 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.868251) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67569894 bytes OK: base level 1 max bytes base 268435456 files[0 8 74 8 0 0 0] max score 1.86
+2018/04/25-09:36:49.870714 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.868327) [db/db_impl_compaction_flush.cc:1830] [default] Moving #84 to level-3 67569854 bytes
+2018/04/25-09:36:49.870716 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.870704) EVENT_LOG_v1 {"time_micros": 1524649009870702, "job": 94, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67569854}
+2018/04/25-09:36:49.870718 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.870707) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67569854 bytes OK: base level 1 max bytes base 268435456 files[0 8 73 9 0 0 0] max score 1.84
+2018/04/25-09:36:49.872777 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.870776) [db/db_impl_compaction_flush.cc:1830] [default] Moving #30 to level-3 67569811 bytes
+2018/04/25-09:36:49.872779 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.872767) EVENT_LOG_v1 {"time_micros": 1524649009872764, "job": 95, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67569811}
+2018/04/25-09:36:49.872781 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.872769) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67569811 bytes OK: base level 1 max bytes base 268435456 files[0 8 72 10 0 0 0] max score 1.82
+2018/04/25-09:36:49.874837 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.872839) [db/db_impl_compaction_flush.cc:1830] [default] Moving #39 to level-2 67567646 bytes
+2018/04/25-09:36:49.874839 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.874827) EVENT_LOG_v1 {"time_micros": 1524649009874825, "job": 96, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67567646}
+2018/04/25-09:36:49.874841 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.874830) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67567646 bytes OK: base level 1 max bytes base 268435456 files[0 7 73 10 0 0 0] max score 1.84
+2018/04/25-09:36:49.876937 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.874897) [db/db_impl_compaction_flush.cc:1830] [default] Moving #90 to level-3 67569748 bytes
+2018/04/25-09:36:49.876939 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.876927) EVENT_LOG_v1 {"time_micros": 1524649009876925, "job": 97, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67569748}
+2018/04/25-09:36:49.876952 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.876930) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67569748 bytes OK: base level 1 max bytes base 268435456 files[0 7 72 11 0 0 0] max score 1.81
+2018/04/25-09:36:49.879066 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.876994) [db/db_impl_compaction_flush.cc:1830] [default] Moving #11 to level-3 67569723 bytes
+2018/04/25-09:36:49.879068 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.879057) EVENT_LOG_v1 {"time_micros": 1524649009879054, "job": 98, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67569723}
+2018/04/25-09:36:49.879070 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.879059) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67569723 bytes OK: base level 1 max bytes base 268435456 files[0 7 71 12 0 0 0] max score 1.79
+2018/04/25-09:36:49.881310 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.879124) [db/db_impl_compaction_flush.cc:1830] [default] Moving #75 to level-3 67569698 bytes
+2018/04/25-09:36:49.881312 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.881300) EVENT_LOG_v1 {"time_micros": 1524649009881297, "job": 99, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67569698}
+2018/04/25-09:36:49.881324 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.881303) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67569698 bytes OK: base level 1 max bytes base 268435456 files[0 7 70 13 0 0 0] max score 1.76
+2018/04/25-09:36:49.883706 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.881366) [db/db_impl_compaction_flush.cc:1830] [default] Moving #88 to level-3 67569684 bytes
+2018/04/25-09:36:49.883708 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.883696) EVENT_LOG_v1 {"time_micros": 1524649009883693, "job": 100, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67569684}
+2018/04/25-09:36:49.883710 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.883699) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67569684 bytes OK: base level 1 max bytes base 268435456 files[0 7 69 14 0 0 0] max score 1.74
+2018/04/25-09:36:49.885792 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.883763) [db/db_impl_compaction_flush.cc:1830] [default] Moving #76 to level-3 67569659 bytes
+2018/04/25-09:36:49.885794 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.885782) EVENT_LOG_v1 {"time_micros": 1524649009885779, "job": 101, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67569659}
+2018/04/25-09:36:49.885806 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.885785) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67569659 bytes OK: base level 1 max bytes base 268435456 files[0 7 68 15 0 0 0] max score 1.71
+2018/04/25-09:36:49.888194 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.885852) [db/db_impl_compaction_flush.cc:1830] [default] Moving #24 to level-3 67569658 bytes
+2018/04/25-09:36:49.888196 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.888184) EVENT_LOG_v1 {"time_micros": 1524649009888182, "job": 102, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67569658}
+2018/04/25-09:36:49.888209 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.888187) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67569658 bytes OK: base level 1 max bytes base 268435456 files[0 7 67 16 0 0 0] max score 1.69
+2018/04/25-09:36:49.890687 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.888255) [db/db_impl_compaction_flush.cc:1830] [default] Moving #14 to level-3 67569629 bytes
+2018/04/25-09:36:49.890689 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.890670) EVENT_LOG_v1 {"time_micros": 1524649009890668, "job": 103, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67569629}
+2018/04/25-09:36:49.890691 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.890673) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67569629 bytes OK: base level 1 max bytes base 268435456 files[0 7 66 17 0 0 0] max score 1.66
+2018/04/25-09:36:49.893059 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.890745) [db/db_impl_compaction_flush.cc:1830] [default] Moving #47 to level-3 67569576 bytes
+2018/04/25-09:36:49.893061 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.893049) EVENT_LOG_v1 {"time_micros": 1524649009893046, "job": 104, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67569576}
+2018/04/25-09:36:49.893073 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.893051) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67569576 bytes OK: base level 1 max bytes base 268435456 files[0 7 65 18 0 0 0] max score 1.64
+2018/04/25-09:36:49.895753 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.893117) [db/db_impl_compaction_flush.cc:1830] [default] Moving #71 to level-3 67569562 bytes
+2018/04/25-09:36:49.895765 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.895742) EVENT_LOG_v1 {"time_micros": 1524649009895739, "job": 105, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67569562}
+2018/04/25-09:36:49.895768 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.895745) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67569562 bytes OK: base level 1 max bytes base 268435456 files[0 7 64 19 0 0 0] max score 1.61
+2018/04/25-09:36:49.897987 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.895811) [db/db_impl_compaction_flush.cc:1830] [default] Moving #52 to level-3 67569480 bytes
+2018/04/25-09:36:49.897989 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.897977) EVENT_LOG_v1 {"time_micros": 1524649009897975, "job": 106, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67569480}
+2018/04/25-09:36:49.898002 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.897980) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67569480 bytes OK: base level 1 max bytes base 268435456 files[0 7 63 20 0 0 0] max score 1.59
+2018/04/25-09:36:49.900261 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.898048) [db/db_impl_compaction_flush.cc:1830] [default] Moving #44 to level-3 67569469 bytes
+2018/04/25-09:36:49.900264 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.900251) EVENT_LOG_v1 {"time_micros": 1524649009900248, "job": 107, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67569469}
+2018/04/25-09:36:49.900276 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.900254) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67569469 bytes OK: base level 1 max bytes base 268435456 files[0 7 62 21 0 0 0] max score 1.57
+2018/04/25-09:36:49.902485 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.900333) [db/db_impl_compaction_flush.cc:1830] [default] Moving #46 to level-2 67567640 bytes
+2018/04/25-09:36:49.902487 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.902475) EVENT_LOG_v1 {"time_micros": 1524649009902473, "job": 108, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67567640}
+2018/04/25-09:36:49.902489 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.902478) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67567640 bytes OK: base level 1 max bytes base 268435456 files[0 6 63 21 0 0 0] max score 1.59
+2018/04/25-09:36:49.904585 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.902547) [db/db_impl_compaction_flush.cc:1830] [default] Moving #41 to level-3 67569438 bytes
+2018/04/25-09:36:49.904587 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.904575) EVENT_LOG_v1 {"time_micros": 1524649009904573, "job": 109, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67569438}
+2018/04/25-09:36:49.904589 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.904577) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67569438 bytes OK: base level 1 max bytes base 268435456 files[0 6 62 22 0 0 0] max score 1.56
+2018/04/25-09:36:49.906805 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.904641) [db/db_impl_compaction_flush.cc:1830] [default] Moving #56 to level-3 67569405 bytes
+2018/04/25-09:36:49.906807 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.906795) EVENT_LOG_v1 {"time_micros": 1524649009906792, "job": 110, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67569405}
+2018/04/25-09:36:49.906809 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.906798) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67569405 bytes OK: base level 1 max bytes base 268435456 files[0 6 61 23 0 0 0] max score 1.54
+2018/04/25-09:36:49.908977 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.906868) [db/db_impl_compaction_flush.cc:1830] [default] Moving #92 to level-3 67569391 bytes
+2018/04/25-09:36:49.908979 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.908967) EVENT_LOG_v1 {"time_micros": 1524649009908964, "job": 111, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67569391}
+2018/04/25-09:36:49.908991 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.908969) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67569391 bytes OK: base level 1 max bytes base 268435456 files[0 6 60 24 0 0 0] max score 1.51
+2018/04/25-09:36:49.911008 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.909034) [db/db_impl_compaction_flush.cc:1830] [default] Moving #37 to level-3 67569373 bytes
+2018/04/25-09:36:49.911010 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.910998) EVENT_LOG_v1 {"time_micros": 1524649009910995, "job": 112, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67569373}
+2018/04/25-09:36:49.911022 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.911001) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67569373 bytes OK: base level 1 max bytes base 268435456 files[0 6 59 25 0 0 0] max score 1.49
+2018/04/25-09:36:49.913078 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.911065) [db/db_impl_compaction_flush.cc:1830] [default] Moving #67 to level-3 67569331 bytes
+2018/04/25-09:36:49.913080 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.913068) EVENT_LOG_v1 {"time_micros": 1524649009913065, "job": 113, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67569331}
+2018/04/25-09:36:49.913092 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.913070) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67569331 bytes OK: base level 1 max bytes base 268435456 files[0 6 58 26 0 0 0] max score 1.46
+2018/04/25-09:36:49.915235 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.913136) [db/db_impl_compaction_flush.cc:1830] [default] Moving #80 to level-3 67569232 bytes
+2018/04/25-09:36:49.915237 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.915226) EVENT_LOG_v1 {"time_micros": 1524649009915224, "job": 114, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67569232}
+2018/04/25-09:36:49.915239 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.915228) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67569232 bytes OK: base level 1 max bytes base 268435456 files[0 6 57 27 0 0 0] max score 1.43
+2018/04/25-09:36:49.917525 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.915293) [db/db_impl_compaction_flush.cc:1830] [default] Moving #49 to level-3 67569212 bytes
+2018/04/25-09:36:49.917527 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.917515) EVENT_LOG_v1 {"time_micros": 1524649009917513, "job": 115, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67569212}
+2018/04/25-09:36:49.917529 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.917518) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67569212 bytes OK: base level 1 max bytes base 268435456 files[0 6 56 28 0 0 0] max score 1.41
+2018/04/25-09:36:49.919711 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.917586) [db/db_impl_compaction_flush.cc:1830] [default] Moving #64 to level-3 67569212 bytes
+2018/04/25-09:36:49.919713 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.919701) EVENT_LOG_v1 {"time_micros": 1524649009919699, "job": 116, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67569212}
+2018/04/25-09:36:49.919715 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.919704) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67569212 bytes OK: base level 1 max bytes base 268435456 files[0 6 55 29 0 0 0] max score 1.38
+2018/04/25-09:36:49.921797 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.919770) [db/db_impl_compaction_flush.cc:1830] [default] Moving #82 to level-3 67569100 bytes
+2018/04/25-09:36:49.921799 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.921788) EVENT_LOG_v1 {"time_micros": 1524649009921785, "job": 117, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67569100}
+2018/04/25-09:36:49.921812 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.921790) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67569100 bytes OK: base level 1 max bytes base 268435456 files[0 6 54 30 0 0 0] max score 1.36
+2018/04/25-09:36:49.923931 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.921857) [db/db_impl_compaction_flush.cc:1830] [default] Moving #74 to level-3 67569089 bytes
+2018/04/25-09:36:49.923933 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.923922) EVENT_LOG_v1 {"time_micros": 1524649009923920, "job": 118, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67569089}
+2018/04/25-09:36:49.923935 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.923925) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67569089 bytes OK: base level 1 max bytes base 268435456 files[0 6 53 31 0 0 0] max score 1.33
+2018/04/25-09:36:49.926186 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.923991) [db/db_impl_compaction_flush.cc:1830] [default] Moving #38 to level-3 67569025 bytes
+2018/04/25-09:36:49.926188 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.926177) EVENT_LOG_v1 {"time_micros": 1524649009926175, "job": 119, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67569025}
+2018/04/25-09:36:49.926190 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.926180) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67569025 bytes OK: base level 1 max bytes base 268435456 files[0 6 52 32 0 0 0] max score 1.31
+2018/04/25-09:36:49.928429 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.926246) [db/db_impl_compaction_flush.cc:1830] [default] Moving #45 to level-2 67567617 bytes
+2018/04/25-09:36:49.928431 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.928420) EVENT_LOG_v1 {"time_micros": 1524649009928417, "job": 120, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67567617}
+2018/04/25-09:36:49.928443 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.928422) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67567617 bytes OK: base level 1 max bytes base 268435456 files[0 5 53 32 0 0 0] max score 1.33
+2018/04/25-09:36:49.930723 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.928488) [db/db_impl_compaction_flush.cc:1830] [default] Moving #65 to level-3 67569022 bytes
+2018/04/25-09:36:49.930725 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.930713) EVENT_LOG_v1 {"time_micros": 1524649009930711, "job": 121, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67569022}
+2018/04/25-09:36:49.930727 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.930716) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67569022 bytes OK: base level 1 max bytes base 268435456 files[0 5 52 33 0 0 0] max score 1.31
+2018/04/25-09:36:49.933740 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.930782) [db/db_impl_compaction_flush.cc:1830] [default] Moving #68 to level-3 67568989 bytes
+2018/04/25-09:36:49.933742 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.933730) EVENT_LOG_v1 {"time_micros": 1524649009933727, "job": 122, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67568989}
+2018/04/25-09:36:49.933744 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.933733) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67568989 bytes OK: base level 1 max bytes base 268435456 files[0 5 51 34 0 0 0] max score 1.28
+2018/04/25-09:36:49.936006 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.933803) [db/db_impl_compaction_flush.cc:1830] [default] Moving #63 to level-3 67568968 bytes
+2018/04/25-09:36:49.936008 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.935996) EVENT_LOG_v1 {"time_micros": 1524649009935994, "job": 123, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67568968}
+2018/04/25-09:36:49.936010 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.935999) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67568968 bytes OK: base level 1 max bytes base 268435456 files[0 5 50 35 0 0 0] max score 1.26
+2018/04/25-09:36:49.938186 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.936064) [db/db_impl_compaction_flush.cc:1830] [default] Moving #97 to level-3 67568894 bytes
+2018/04/25-09:36:49.938188 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.938177) EVENT_LOG_v1 {"time_micros": 1524649009938174, "job": 124, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67568894}
+2018/04/25-09:36:49.938201 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.938179) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67568894 bytes OK: base level 1 max bytes base 268435456 files[0 5 49 36 0 0 0] max score 1.23
+2018/04/25-09:36:49.940512 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.938246) [db/db_impl_compaction_flush.cc:1830] [default] Moving #16 to level-3 67568891 bytes
+2018/04/25-09:36:49.940514 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.940502) EVENT_LOG_v1 {"time_micros": 1524649009940499, "job": 125, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67568891}
+2018/04/25-09:36:49.940526 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.940505) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67568891 bytes OK: base level 1 max bytes base 268435456 files[0 5 48 37 0 0 0] max score 1.21
+2018/04/25-09:36:49.942662 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.940569) [db/db_impl_compaction_flush.cc:1830] [default] Moving #26 to level-3 67568850 bytes
+2018/04/25-09:36:49.942664 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.942653) EVENT_LOG_v1 {"time_micros": 1524649009942650, "job": 126, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67568850}
+2018/04/25-09:36:49.942666 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.942655) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67568850 bytes OK: base level 1 max bytes base 268435456 files[0 5 47 38 0 0 0] max score 1.18
+2018/04/25-09:36:49.944891 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.942719) [db/db_impl_compaction_flush.cc:1830] [default] Moving #31 to level-3 67568848 bytes
+2018/04/25-09:36:49.944893 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.944881) EVENT_LOG_v1 {"time_micros": 1524649009944879, "job": 127, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67568848}
+2018/04/25-09:36:49.944905 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.944884) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67568848 bytes OK: base level 1 max bytes base 268435456 files[0 5 46 39 0 0 0] max score 1.16
+2018/04/25-09:36:49.947025 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.944955) [db/db_impl_compaction_flush.cc:1830] [default] Moving #18 to level-3 67568844 bytes
+2018/04/25-09:36:49.947027 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.947015) EVENT_LOG_v1 {"time_micros": 1524649009947013, "job": 128, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67568844}
+2018/04/25-09:36:49.947039 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.947018) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67568844 bytes OK: base level 1 max bytes base 268435456 files[0 5 45 40 0 0 0] max score 1.13
+2018/04/25-09:36:49.949194 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.947087) [db/db_impl_compaction_flush.cc:1830] [default] Moving #42 to level-3 67568798 bytes
+2018/04/25-09:36:49.949196 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.949185) EVENT_LOG_v1 {"time_micros": 1524649009949181, "job": 129, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67568798}
+2018/04/25-09:36:49.949198 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.949187) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67568798 bytes OK: base level 1 max bytes base 268435456 files[0 5 44 41 0 0 0] max score 1.11
+2018/04/25-09:36:49.951414 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.949257) [db/db_impl_compaction_flush.cc:1830] [default] Moving #43 to level-3 67568745 bytes
+2018/04/25-09:36:49.951416 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.951405) EVENT_LOG_v1 {"time_micros": 1524649009951401, "job": 130, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67568745}
+2018/04/25-09:36:49.951418 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.951407) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67568745 bytes OK: base level 1 max bytes base 268435456 files[0 5 43 42 0 0 0] max score 1.08
+2018/04/25-09:36:49.953713 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.951472) [db/db_impl_compaction_flush.cc:1830] [default] Moving #83 to level-3 67568738 bytes
+2018/04/25-09:36:49.953715 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.953703) EVENT_LOG_v1 {"time_micros": 1524649009953700, "job": 131, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67568738}
+2018/04/25-09:36:49.953717 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.953706) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67568738 bytes OK: base level 1 max bytes base 268435456 files[0 5 42 43 0 0 0] max score 1.06
+2018/04/25-09:36:49.955815 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.953774) [db/db_impl_compaction_flush.cc:1830] [default] Moving #40 to level-2 67567535 bytes
+2018/04/25-09:36:49.955817 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.955805) EVENT_LOG_v1 {"time_micros": 1524649009955803, "job": 132, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 67567535}
+2018/04/25-09:36:49.955829 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.955807) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-2 67567535 bytes OK: base level 1 max bytes base 268435456 files[0 4 43 43 0 0 0] max score 1.08
+2018/04/25-09:36:49.958036 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.955873) [db/db_impl_compaction_flush.cc:1830] [default] Moving #25 to level-3 67568704 bytes
+2018/04/25-09:36:49.958038 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.958025) EVENT_LOG_v1 {"time_micros": 1524649009958022, "job": 133, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67568704}
+2018/04/25-09:36:49.958040 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.958028) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67568704 bytes OK: base level 1 max bytes base 268435456 files[0 4 42 44 0 0 0] max score 1.06
+2018/04/25-09:36:49.960217 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.958101) [db/db_impl_compaction_flush.cc:1830] [default] Moving #62 to level-3 67568702 bytes
+2018/04/25-09:36:49.960219 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.960207) EVENT_LOG_v1 {"time_micros": 1524649009960205, "job": 134, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67568702}
+2018/04/25-09:36:49.960221 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.960210) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67568702 bytes OK: base level 1 max bytes base 268435456 files[0 4 41 45 0 0 0] max score 1.03
+2018/04/25-09:36:49.962466 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.960275) [db/db_impl_compaction_flush.cc:1830] [default] Moving #10 to level-3 67568697 bytes
+2018/04/25-09:36:49.962468 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.962456) EVENT_LOG_v1 {"time_micros": 1524649009962453, "job": 135, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67568697}
+2018/04/25-09:36:49.962470 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.962459) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67568697 bytes OK: base level 1 max bytes base 268435456 files[0 4 40 46 0 0 0] max score 1.01
+2018/04/25-09:36:49.964561 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.962521) [db/db_impl_compaction_flush.cc:1830] [default] Moving #57 to level-3 67568691 bytes
+2018/04/25-09:36:49.964563 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.964550) EVENT_LOG_v1 {"time_micros": 1524649009964548, "job": 136, "event": "trivial_move", "destination_level": 3, "files": 1, "total_files_size": 67568691}
+2018/04/25-09:36:49.964575 7f188a0e2700 (Original Log Time 2018/04/25-09:36:49.964553) [db/db_impl_compaction_flush.cc:1859] [default] Moved #1 files to level-3 67568691 bytes OK: base level 1 max bytes base 268435456 files[0 4 39 47 0 0 0] max score 0.98
+2018/04/25-09:50:31.613796 7f188c518a00 [db/db_impl.cc:252] Shutdown: canceling all background work
+2018/04/25-09:50:31.645154 7f188c518a00 [db/db_impl.cc:398] Shutdown complete
